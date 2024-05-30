@@ -1,7 +1,10 @@
-Please cite this paper if you use the following code!
+*Please cite this paper if you use the following code!*
+
+The final figure involves merging multiple SVG files and manually reorganizing the network.
 
 
-GRO-Seq.py:
+**GRO-Seq.py**:
+
 This program performs various data processing and analysis tasks related to gene expression data. Here is an overview of what the program does:
 
 1. Imports necessary libraries: `gzip`, `json`, `pandas`, `networkx`, `matplotlib`, `plotly`, and `numpy`.
