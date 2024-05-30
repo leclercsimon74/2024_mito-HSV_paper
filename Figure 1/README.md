@@ -2,6 +2,7 @@
 
 The final figure involves merging multiple SVG files and manually reorganizing the network.
 
+![Figure 1, Low definition](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Figure%201/Figure1_v2_LD.png)
 
 **GRO-Seq.py**:
 
