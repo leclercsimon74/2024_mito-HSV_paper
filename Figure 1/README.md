@@ -1,4 +1,6 @@
-*Please cite this paper if you use the following code!*
+> [!IMPORTANT]
+> Please cite the paper if you use the data or the code!
+
 
 The final figure involves merging multiple SVG files and manually reorganizing the network.
 
