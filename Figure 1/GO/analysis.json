@@ -1,0 +1,4988 @@
+{"overrepresentation": {
+    "reference": "",
+    "upload_lists": {"input_list": {
+        "organism": "Homo sapiens",
+        "list_name": "upload_1"
+    }},
+    "tool_release_date": 20230705,
+    "data_version_release_date": "GO Ontology database DOI:  10.5281/zenodo.7942786 Released 2023-05-10",
+    "annotation_type": "GO biological process complete",
+    "correction": "FDR",
+    "test_type": "FISHER",
+    "group": [
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 8.703079710144927,
+                    "fdr": 0.004274464394657963,
+                    "expected": 0.8043129826606441,
+                    "pValue": 2.5046764965478084E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "OAT",
+                        "MTHFD1L",
+                        "GPT2",
+                        "OGDH",
+                        "D2HGDH",
+                        "GLUL",
+                        "PCK2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 90,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0043648",
+                    "label": "dicarboxylic acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 33,
+                    "fold_enrichment": 4.390716279791139,
+                    "fdr": 3.888357641903739E-9,
+                    "expected": 7.515857982417796,
+                    "pValue": 1.502263094103183E-12,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "OAT",
+                        "ETFB",
+                        "BPHL",
+                        "ACAT1",
+                        "CPT2",
+                        "MTHFD1L",
+                        "DBT",
+                        "IARS2",
+                        "D2HGDH",
+                        "GLUL",
+                        "ACADS",
+                        "EARS2",
+                        "PCK2",
+                        "IDH3A",
+                        "DECR1",
+                        "ARG2",
+                        "GPT2",
+                        "AMT",
+                        "DARS2",
+                        "GATB",
+                        "MCAT",
+                        "HARS2",
+                        "GCAT",
+                        "GATM",
+                        "SARS2",
+                        "DDAH2",
+                        "NDUFAB1",
+                        "OGDH",
+                        "IDNK",
+                        "CARS2",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 841,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0019752",
+                    "label": "carboxylic acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 34,
+                    "fold_enrichment": 4.408446269333468,
+                    "fdr": 2.2752485248697678E-9,
+                    "expected": 7.712467822623731,
+                    "pValue": 5.8602666448674E-13,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "OAT",
+                        "ETFB",
+                        "BPHL",
+                        "ACAT1",
+                        "CPT2",
+                        "MTHFD1L",
+                        "DBT",
+                        "IARS2",
+                        "D2HGDH",
+                        "GLUL",
+                        "ACADS",
+                        "EARS2",
+                        "PCK2",
+                        "IDH3A",
+                        "DECR1",
+                        "ARG2",
+                        "GPT2",
+                        "AMT",
+                        "DARS2",
+                        "GATB",
+                        "MCAT",
+                        "HARS2",
+                        "GCAT",
+                        "GATM",
+                        "SARS2",
+                        "PPA2",
+                        "DDAH2",
+                        "NDUFAB1",
+                        "OGDH",
+                        "IDNK",
+                        "CARS2",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 863,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0043436",
+                    "label": "oxoacid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 34,
+                    "fold_enrichment": 4.372976011994003,
+                    "fdr": 2.263911582585947E-9,
+                    "expected": 7.775025499052893,
+                    "pValue": 7.288833169948316E-13,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "OAT",
+                        "ETFB",
+                        "BPHL",
+                        "ACAT1",
+                        "CPT2",
+                        "MTHFD1L",
+                        "DBT",
+                        "IARS2",
+                        "D2HGDH",
+                        "GLUL",
+                        "ACADS",
+                        "EARS2",
+                        "PCK2",
+                        "IDH3A",
+                        "DECR1",
+                        "ARG2",
+                        "GPT2",
+                        "AMT",
+                        "DARS2",
+                        "GATB",
+                        "MCAT",
+                        "HARS2",
+                        "GCAT",
+                        "GATM",
+                        "SARS2",
+                        "PPA2",
+                        "DDAH2",
+                        "NDUFAB1",
+                        "OGDH",
+                        "IDNK",
+                        "CARS2",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 870,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0006082",
+                    "label": "organic acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 95,
+                    "fold_enrichment": 1.8239859672943213,
+                    "fdr": 4.733018491710022E-8,
+                    "expected": 52.083734032735926,
+                    "pValue": 3.65719394079332E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "ACADVL",
+                        "PUS10",
+                        "MT-ND4",
+                        "INTS14",
+                        "ALAS1",
+                        "OSGEPL1",
+                        "MRPS14",
+                        "SMG9",
+                        "HSCB",
+                        "ETFB",
+                        "NADK2",
+                        "ABHD11",
+                        "CPT2",
+                        "IMPA2",
+                        "DBT",
+                        "GLUL",
+                        "ACADS",
+                        "EARS2",
+                        "IDH3A",
+                        "SLC25A46",
+                        "ARG2",
+                        "MRPS26",
+                        "GPT2",
+                        "AMT",
+                        "DARS2",
+                        "MRPL48",
+                        "REXO2",
+                        "SIRT1",
+                        "GCAT",
+                        "SARS2",
+                        "POLG2",
+                        "PIK3CA",
+                        "PPA2",
+                        "DDAH2",
+                        "CMPK2",
+                        "IDNK",
+                        "NDUFS1",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "SLC25A4",
+                        "CARS2",
+                        "ALDH7A1",
+                        "INTS6L",
+                        "SLC25A14",
+                        "BCAT2",
+                        "OAT",
+                        "ABCB6",
+                        "IBA57",
+                        "COX5B",
+                        "BPHL",
+                        "DEPP1",
+                        "ACAT1",
+                        "PRDX3",
+                        "UGT8",
+                        "PDF",
+                        "MTHFD1L",
+                        "ZMAT2",
+                        "PPCS",
+                        "GRK6",
+                        "IARS2",
+                        "D2HGDH",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "RDH13",
+                        "NDUFV2",
+                        "COX10",
+                        "PCK2",
+                        "DECR1",
+                        "DMAC2L",
+                        "MGME1",
+                        "NDUFA8",
+                        "UQCC3",
+                        "MMAB",
+                        "MOCOS",
+                        "GATB",
+                        "EXOG",
+                        "COQ9",
+                        "CWC15",
+                        "MCAT",
+                        "HARS2",
+                        "MAPK11",
+                        "DAP",
+                        "GATM",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SFXN3",
+                        "SARM1",
+                        "PCYOX1L",
+                        "TRMT12",
+                        "SFXN1",
+                        "NDUFAF1",
+                        "NRDE2",
+                        "TRMT61A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 5828,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0044237",
+                    "label": "cellular metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 117,
+                    "fold_enrichment": 1.619084649797288,
+                    "fdr": 6.025557605305869E-8,
+                    "expected": 72.26305308659964,
+                    "pValue": 5.043931028266343E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "PUS10",
+                        "MT-ND4",
+                        "OSGEPL1",
+                        "ABHD11",
+                        "GLUL",
+                        "EARS2",
+                        "SLC25A46",
+                        "BNIP3L",
+                        "SLC6A17",
+                        "GPT2",
+                        "KCTD6",
+                        "GCAT",
+                        "POLG2",
+                        "PPA2",
+                        "CMPK2",
+                        "IDNK",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "INTS6L",
+                        "ANAPC13",
+                        "ABCB6",
+                        "OMA1",
+                        "ACAT1",
+                        "PRDX3",
+                        "NLN",
+                        "UGT8",
+                        "ZMAT2",
+                        "PPCS",
+                        "GRK6",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "RDH13",
+                        "NDUFV2",
+                        "COX10",
+                        "PCK2",
+                        "DECR1",
+                        "DMAC2L",
+                        "UBE2H",
+                        "UQCC3",
+                        "SIAH1",
+                        "COQ9",
+                        "CWC15",
+                        "MCAT",
+                        "HARS2",
+                        "DAP",
+                        "P4HA1",
+                        "OGDH",
+                        "SFXN3",
+                        "TRMT12",
+                        "SFXN1",
+                        "NDUFAF1",
+                        "MIPEP",
+                        "ACADVL",
+                        "INTS14",
+                        "ALAS1",
+                        "MRPS14",
+                        "HEXD",
+                        "SMG9",
+                        "HSCB",
+                        "ETFB",
+                        "PCMTD2",
+                        "NADK2",
+                        "CPT2",
+                        "IMPA2",
+                        "DBT",
+                        "TRIM3",
+                        "ACADS",
+                        "IDH3A",
+                        "ARG2",
+                        "MRPS26",
+                        "AMT",
+                        "SIRT5",
+                        "DARS2",
+                        "MRPL48",
+                        "REXO2",
+                        "SIRT1",
+                        "IMMP1L",
+                        "SARS2",
+                        "PIK3CA",
+                        "BDH1",
+                        "DDAH2",
+                        "TRAF6",
+                        "NDUFS1",
+                        "POLR1G",
+                        "SLC25A4",
+                        "SLC25A14",
+                        "BCAT2",
+                        "OAT",
+                        "IBA57",
+                        "COX5B",
+                        "BPHL",
+                        "DEPP1",
+                        "DCAF15",
+                        "PDF",
+                        "MTHFD1L",
+                        "IARS2",
+                        "D2HGDH",
+                        "MGME1",
+                        "NDUFA8",
+                        "MMAB",
+                        "MOCOS",
+                        "GATB",
+                        "EXOG",
+                        "FBXL12",
+                        "MAPK11",
+                        "GATM",
+                        "XPNPEP3",
+                        "NDUFAB1",
+                        "SARM1",
+                        "PCYOX1L",
+                        "NRDE2",
+                        "TRMT61A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 8086,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0008152",
+                    "label": "metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 155,
+                    "fold_enrichment": 1.182115223910673,
+                    "fdr": 0.008565554037304976,
+                    "expected": 131.12088979552186,
+                    "pValue": 5.350024092843417E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "PUS10",
+                        "MT-ND4",
+                        "OSGEPL1",
+                        "TACO1",
+                        "GHITM",
+                        "ELK3",
+                        "ABHD11",
+                        "FAM162A",
+                        "GLUL",
+                        "EARS2",
+                        "SLC25A46",
+                        "BNIP3L",
+                        "SLC6A17",
+                        "GPT2",
+                        "TOMM34",
+                        "ATAD3A",
+                        "KCTD6",
+                        "GCAT",
+                        "POLG2",
+                        "PPA2",
+                        "CMPK2",
+                        "IDNK",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "KCTD18",
+                        "INTS6L",
+                        "ANAPC13",
+                        "SMIM4",
+                        "ABCB6",
+                        "CACNA1B",
+                        "ABCB8",
+                        "OMA1",
+                        "ACAT1",
+                        "PRDX3",
+                        "NLN",
+                        "UGT8",
+                        "RHOT2",
+                        "BCL2L11",
+                        "GRPEL1",
+                        "ZMAT2",
+                        "PPCS",
+                        "DND1",
+                        "GRK6",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "RDH13",
+                        "NDUFV2",
+                        "COX10",
+                        "PCK2",
+                        "DECR1",
+                        "DMAC2L",
+                        "UQCC3",
+                        "UQCC2",
+                        "SIAH1",
+                        "COQ9",
+                        "CWC15",
+                        "MCAT",
+                        "HARS2",
+                        "FAM160A2",
+                        "DAP",
+                        "EFNA2",
+                        "P4HA1",
+                        "NDUFAF4",
+                        "MAFF",
+                        "OGDH",
+                        "SFXN3",
+                        "TRMT12",
+                        "SFXN4",
+                        "SFXN1",
+                        "NDUFAF1",
+                        "DAND5",
+                        "BCL2L1",
+                        "CREBZF",
+                        "MIPEP",
+                        "ACADVL",
+                        "INTS14",
+                        "ALAS1",
+                        "MRPS14",
+                        "SMG9",
+                        "HSCB",
+                        "ETFB",
+                        "AREG",
+                        "NADK2",
+                        "TMEM223",
+                        "CPT2",
+                        "AIFM1",
+                        "IMPA2",
+                        "RASGEF1C",
+                        "DBT",
+                        "TRIM3",
+                        "ACADS",
+                        "IDH3A",
+                        "COA5",
+                        "CCDC51",
+                        "ARG2",
+                        "MRPS26",
+                        "TIMM29",
+                        "AMT",
+                        "SIRT5",
+                        "DARS2",
+                        "MRPL48",
+                        "LRRD1",
+                        "REXO2",
+                        "SIRT1",
+                        "IMMP1L",
+                        "SARS2",
+                        "PIK3CA",
+                        "DDAH2",
+                        "TRAF6",
+                        "NDUFS1",
+                        "POLR1G",
+                        "SLC25A4",
+                        "SLC25A14",
+                        "ATPAF1",
+                        "BCAT2",
+                        "OAT",
+                        "MTFP1",
+                        "NOL7",
+                        "IBA57",
+                        "MIEF1",
+                        "TIMM10",
+                        "COX5B",
+                        "PHYHIP",
+                        "BPHL",
+                        "TMEM70",
+                        "DEPP1",
+                        "AKAP1",
+                        "PDF",
+                        "MTHFD1L",
+                        "IARS2",
+                        "D2HGDH",
+                        "MGME1",
+                        "NDUFA8",
+                        "MMAB",
+                        "MOCOS",
+                        "IMMT",
+                        "GATB",
+                        "EXOG",
+                        "GFER",
+                        "MAPK11",
+                        "GATM",
+                        "TMCO6",
+                        "NDUFAB1",
+                        "SARM1",
+                        "PCYOX1L",
+                        "NRDE2",
+                        "TRMT61A",
+                        "VPS35L"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 14672,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0009987",
+                    "label": "cellular process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 55,
+                    "fold_enrichment": 3.672029028743385,
+                    "fdr": 1.239641968668773E-13,
+                    "expected": 14.97809509932488,
+                    "pValue": 1.5964481244929463E-17,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "ACADVL",
+                        "MT-ND4",
+                        "ETFB",
+                        "NADK2",
+                        "CPT2",
+                        "IMPA2",
+                        "DBT",
+                        "GLUL",
+                        "ACADS",
+                        "EARS2",
+                        "IDH3A",
+                        "ARG2",
+                        "GPT2",
+                        "AMT",
+                        "DARS2",
+                        "REXO2",
+                        "GCAT",
+                        "SARS2",
+                        "PIK3CA",
+                        "PPA2",
+                        "DDAH2",
+                        "CMPK2",
+                        "IDNK",
+                        "NDUFS1",
+                        "CARS2",
+                        "BCAT2",
+                        "OAT",
+                        "OMA1",
+                        "BPHL",
+                        "ACAT1",
+                        "MTHFD1L",
+                        "PPCS",
+                        "IARS2",
+                        "D2HGDH",
+                        "NDUFV3",
+                        "RDH13",
+                        "NDUFV2",
+                        "PCK2",
+                        "DECR1",
+                        "DMAC2L",
+                        "NDUFA8",
+                        "UQCC3",
+                        "MMAB",
+                        "GATB",
+                        "COQ9",
+                        "MCAT",
+                        "HARS2",
+                        "GATM",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SFXN3",
+                        "SARM1",
+                        "SFXN1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 1676,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0044281",
+                    "label": "small molecule metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 107,
+                    "fold_enrichment": 1.5644781245206483,
+                    "fdr": 7.533587642089108E-6,
+                    "expected": 68.3934139589101,
+                    "pValue": 1.4067871321351199E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "PUS10",
+                        "MT-ND4",
+                        "OSGEPL1",
+                        "ABHD11",
+                        "GLUL",
+                        "EARS2",
+                        "BNIP3L",
+                        "SLC6A17",
+                        "GPT2",
+                        "KCTD6",
+                        "GCAT",
+                        "POLG2",
+                        "PPA2",
+                        "CMPK2",
+                        "IDNK",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "INTS6L",
+                        "ANAPC13",
+                        "ABCB6",
+                        "OMA1",
+                        "ACAT1",
+                        "PRDX3",
+                        "NLN",
+                        "UGT8",
+                        "ZMAT2",
+                        "PPCS",
+                        "GRK6",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "RDH13",
+                        "NDUFV2",
+                        "COX10",
+                        "PCK2",
+                        "DECR1",
+                        "DMAC2L",
+                        "UBE2H",
+                        "UQCC3",
+                        "SIAH1",
+                        "COQ9",
+                        "CWC15",
+                        "MCAT",
+                        "HARS2",
+                        "DAP",
+                        "P4HA1",
+                        "OGDH",
+                        "TRMT12",
+                        "MIPEP",
+                        "ACADVL",
+                        "INTS14",
+                        "ALAS1",
+                        "MRPS14",
+                        "HEXD",
+                        "SMG9",
+                        "ETFB",
+                        "PCMTD2",
+                        "NADK2",
+                        "CPT2",
+                        "IMPA2",
+                        "DBT",
+                        "TRIM3",
+                        "ACADS",
+                        "IDH3A",
+                        "ARG2",
+                        "MRPS26",
+                        "AMT",
+                        "SIRT5",
+                        "DARS2",
+                        "MRPL48",
+                        "REXO2",
+                        "SIRT1",
+                        "IMMP1L",
+                        "SARS2",
+                        "PIK3CA",
+                        "BDH1",
+                        "DDAH2",
+                        "TRAF6",
+                        "NDUFS1",
+                        "POLR1G",
+                        "BCAT2",
+                        "OAT",
+                        "IBA57",
+                        "BPHL",
+                        "DCAF15",
+                        "PDF",
+                        "MTHFD1L",
+                        "IARS2",
+                        "D2HGDH",
+                        "MGME1",
+                        "NDUFA8",
+                        "MMAB",
+                        "MOCOS",
+                        "GATB",
+                        "EXOG",
+                        "FBXL12",
+                        "MAPK11",
+                        "GATM",
+                        "XPNPEP3",
+                        "NDUFAB1",
+                        "SARM1",
+                        "PCYOX1L",
+                        "NRDE2",
+                        "TRMT61A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 7653,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0071704",
+                    "label": "organic substance metabolic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 5,
+                    "fold_enrichment": 9.324728260869565,
+                    "fdr": 0.0356030286879276,
+                    "expected": 0.536208655107096,
+                    "pValue": 2.7739642441978356E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "BNIP3L",
+                        "RHOT2",
+                        "BCL2L11",
+                        "SLC25A4",
+                        "BCL2L1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 60,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0046902",
+                    "label": "regulation of mitochondrial membrane permeability"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 16,
+                    "fold_enrichment": 12.015757222060111,
+                    "fdr": 3.5609278519945973E-9,
+                    "expected": 1.3315848268492885,
+                    "pValue": 1.605054408497243E-12,
+                    "mapped_id_list": {"mapped_id": [
+                        "MIPEP",
+                        "BNIP3L",
+                        "TIMM29",
+                        "TOMM34",
+                        "TIMM10",
+                        "MCAT",
+                        "IMMP1L",
+                        "RHOT2",
+                        "BCL2L11",
+                        "GRPEL1",
+                        "CPT2",
+                        "AIFM1",
+                        "SLC25A4",
+                        "SLC25A14",
+                        "BCL2L1",
+                        "SLC25A46"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 149,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006839",
+                    "label": "mitochondrial transport"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 75,
+                    "fold_enrichment": 0.6863146413790161,
+                    "fdr": 1.486819745834451E-4,
+                    "expected": 109.27932391082616,
+                    "pValue": 4.978404815414775E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "CREBZF",
+                        "ACADVL",
+                        "PUS10",
+                        "INTS14",
+                        "TACO1",
+                        "SMG9",
+                        "GHITM",
+                        "AREG",
+                        "ELK3",
+                        "CPT2",
+                        "AIFM1",
+                        "FAM162A",
+                        "IMPA2",
+                        "CREB3L4",
+                        "RASGEF1C",
+                        "TRIM3",
+                        "GLUL",
+                        "CCDC51",
+                        "BNIP3L",
+                        "ARG2",
+                        "SIRT5",
+                        "LRRD1",
+                        "ATAD3A",
+                        "SIRT1",
+                        "KCTD6",
+                        "THAP3",
+                        "POLG2",
+                        "PIK3CA",
+                        "PPA2",
+                        "DDAH2",
+                        "TRAF6",
+                        "NDUFS1",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "SLC25A4",
+                        "BCAT2",
+                        "ANAPC13",
+                        "CACNA1B",
+                        "ABCB8",
+                        "MIEF1",
+                        "OMA1",
+                        "DEPP1",
+                        "PRDX3",
+                        "DCAF15",
+                        "NLN",
+                        "RHOT2",
+                        "BCL2L11",
+                        "PDF",
+                        "DND1",
+                        "GRK6",
+                        "IARS2",
+                        "CAMTA2",
+                        "RDH13",
+                        "ZNF467",
+                        "ZNF862",
+                        "PCK2",
+                        "DECR1",
+                        "UQCC2",
+                        "SIAH1",
+                        "HARS2",
+                        "GFER",
+                        "MAPK11",
+                        "DAP",
+                        "GATM",
+                        "EFNA2",
+                        "NDUFAF4",
+                        "MAFF",
+                        "SARM1",
+                        "MXD1",
+                        "NRDE2",
+                        "DAND5",
+                        "BCL2L1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 12228,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0065007",
+                    "label": "biological regulation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 12,
+                    "fold_enrichment": 11.476588628762542,
+                    "fdr": 1.2783410709410778E-6,
+                    "expected": 1.0456068774588372,
+                    "pValue": 1.7286002891025521E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "BNIP3L",
+                        "RHOT2",
+                        "BCL2L11",
+                        "TIMM29",
+                        "UQCC3",
+                        "IMMT",
+                        "TIMM10",
+                        "GHITM",
+                        "OMA1",
+                        "SLC25A4",
+                        "BCL2L1",
+                        "SLC25A46"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 117,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0007006",
+                    "label": "mitochondrial membrane organization"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 38,
+                    "fold_enrichment": 9.284008923485857,
+                    "fdr": 1.3008450946726957E-20,
+                    "expected": 4.093059400650833,
+                    "pValue": 8.376336733243372E-25,
+                    "mapped_id_list": {"mapped_id": [
+                        "MIPEP",
+                        "MT-ND4",
+                        "SMIM4",
+                        "MTFP1",
+                        "TACO1",
+                        "MIEF1",
+                        "TIMM10",
+                        "GHITM",
+                        "OMA1",
+                        "TMEM70",
+                        "PRDX3",
+                        "TMEM223",
+                        "RHOT2",
+                        "BCL2L11",
+                        "GRPEL1",
+                        "AIFM1",
+                        "COX10",
+                        "COA5",
+                        "SLC25A46",
+                        "MGME1",
+                        "NDUFA8",
+                        "BNIP3L",
+                        "TIMM29",
+                        "UQCC3",
+                        "UQCC2",
+                        "TOMM34",
+                        "SIRT5",
+                        "IMMT",
+                        "ATAD3A",
+                        "IMMP1L",
+                        "POLG2",
+                        "NDUFAF4",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFAF1",
+                        "SLC25A4",
+                        "ATPAF1",
+                        "BCL2L1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 458,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0007005",
+                    "label": "mitochondrion organization"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 5,
+                    "fold_enrichment": 10.360809178743962,
+                    "fdr": 0.024333322671210765,
+                    "expected": 0.48258778959638643,
+                    "pValue": 1.7548822531716714E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "DAP",
+                        "GHITM",
+                        "OMA1",
+                        "SLC25A4",
+                        "BCL2L1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 54,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0010823",
+                    "label": "negative regulation of mitochondrion organization"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 6.497230014025246,
+                    "fdr": 0.0029367228486668474,
+                    "expected": 1.385205692359998,
+                    "pValue": 1.6073499171711656E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "BNIP3L",
+                        "DAP",
+                        "BCL2L11",
+                        "FAM162A",
+                        "MIEF1",
+                        "GHITM",
+                        "OMA1",
+                        "SLC25A4",
+                        "BCL2L1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 155,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0010821",
+                    "label": "regulation of mitochondrion organization"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 62,
+                    "fold_enrichment": 0.6284625261424909,
+                    "fdr": 2.7962377792775966E-5,
+                    "expected": 98.65345572878722,
+                    "pValue": 6.661995996991054E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "CREBZF",
+                        "ACADVL",
+                        "INTS14",
+                        "TACO1",
+                        "GHITM",
+                        "AREG",
+                        "ELK3",
+                        "AIFM1",
+                        "FAM162A",
+                        "IMPA2",
+                        "CREB3L4",
+                        "RASGEF1C",
+                        "TRIM3",
+                        "GLUL",
+                        "BNIP3L",
+                        "ARG2",
+                        "SIRT5",
+                        "LRRD1",
+                        "ATAD3A",
+                        "SIRT1",
+                        "KCTD6",
+                        "THAP3",
+                        "POLG2",
+                        "PIK3CA",
+                        "DDAH2",
+                        "TRAF6",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "SLC25A4",
+                        "ANAPC13",
+                        "CACNA1B",
+                        "MIEF1",
+                        "OMA1",
+                        "DEPP1",
+                        "PRDX3",
+                        "DCAF15",
+                        "NLN",
+                        "RHOT2",
+                        "BCL2L11",
+                        "PDF",
+                        "DND1",
+                        "GRK6",
+                        "CAMTA2",
+                        "ZNF467",
+                        "ZNF862",
+                        "PCK2",
+                        "UQCC2",
+                        "SIAH1",
+                        "GFER",
+                        "MAPK11",
+                        "DAP",
+                        "EFNA2",
+                        "NDUFAF4",
+                        "MAFF",
+                        "SARM1",
+                        "MXD1",
+                        "NRDE2",
+                        "DAND5",
+                        "BCL2L1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 11039,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0050794",
+                    "label": "regulation of cellular process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 67,
+                    "fold_enrichment": 0.6350229986226605,
+                    "fdr": 1.011424549892061E-5,
+                    "expected": 105.5079897032396,
+                    "pValue": 1.953814326900311E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "CREBZF",
+                        "ACADVL",
+                        "PUS10",
+                        "INTS14",
+                        "TACO1",
+                        "SMG9",
+                        "GHITM",
+                        "AREG",
+                        "ELK3",
+                        "CPT2",
+                        "AIFM1",
+                        "FAM162A",
+                        "IMPA2",
+                        "CREB3L4",
+                        "RASGEF1C",
+                        "TRIM3",
+                        "GLUL",
+                        "BNIP3L",
+                        "ARG2",
+                        "SIRT5",
+                        "LRRD1",
+                        "ATAD3A",
+                        "SIRT1",
+                        "KCTD6",
+                        "THAP3",
+                        "POLG2",
+                        "PIK3CA",
+                        "DDAH2",
+                        "TRAF6",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "SLC25A4",
+                        "ANAPC13",
+                        "CACNA1B",
+                        "MIEF1",
+                        "OMA1",
+                        "DEPP1",
+                        "PRDX3",
+                        "DCAF15",
+                        "NLN",
+                        "RHOT2",
+                        "BCL2L11",
+                        "PDF",
+                        "DND1",
+                        "GRK6",
+                        "CAMTA2",
+                        "ZNF467",
+                        "ZNF862",
+                        "PCK2",
+                        "DECR1",
+                        "UQCC2",
+                        "SIAH1",
+                        "GFER",
+                        "MAPK11",
+                        "DAP",
+                        "GATM",
+                        "EFNA2",
+                        "NDUFAF4",
+                        "MAFF",
+                        "SARM1",
+                        "MXD1",
+                        "NRDE2",
+                        "DAND5",
+                        "BCL2L1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "-"
+                },
+                "number_in_reference": 11806,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0050789",
+                    "label": "regulation of biological process"
+                }
+            }
+        ]},
+        {"result": {
+            "input_list": {
+                "number_in_list": 6,
+                "fold_enrichment": 11.379329403095063,
+                "fdr": 0.004112093214443459,
+                "expected": 0.5272718441886444,
+                "pValue": 2.3830546638757975E-5,
+                "mapped_id_list": {"mapped_id": [
+                    "BNIP3L",
+                    "RHOT2",
+                    "BCL2L11",
+                    "NDUFS1",
+                    "SLC25A4",
+                    "BCL2L1"
+                ]},
+                "list_name": "upload_1",
+                "plus_minus": "+"
+            },
+            "number_in_reference": 59,
+            "term": {
+                "level": 0,
+                "id": "GO:0008637",
+                "label": "apoptotic mitochondrial changes"
+            }
+        }},
+        {"result": {
+            "input_list": {
+                "number_in_list": 6,
+                "fold_enrichment": 11.575524737631184,
+                "fdr": 0.0038454014125570697,
+                "expected": 0.5183350332701928,
+                "pValue": 2.1789782633935745E-5,
+                "mapped_id_list": {"mapped_id": [
+                    "GRPEL1",
+                    "CPT2",
+                    "SFXN3",
+                    "SFXN4",
+                    "SFXN1",
+                    "MCAT"
+                ]},
+                "list_name": "upload_1",
+                "plus_minus": "+"
+            },
+            "number_in_reference": 58,
+            "term": {
+                "level": 0,
+                "id": "GO:1990542",
+                "label": "mitochondrial transmembrane transport"
+            }
+        }},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 12.238705842391303,
+                    "fdr": 7.292490284582985E-4,
+                    "expected": 0.5719558987809025,
+                    "pValue": 3.1461484164009017E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 64,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0042776",
+                    "label": "proton motive force-driven mitochondrial ATP synthesis"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 10.729824300178679,
+                    "fdr": 0.0014951853564479335,
+                    "expected": 0.6523871970469668,
+                    "pValue": 7.028237670360537E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 73,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0015986",
+                    "label": "proton motive force-driven ATP synthesis"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 11.710123862487363,
+                    "fdr": 6.5390505548722E-5,
+                    "expected": 0.7685657389868376,
+                    "pValue": 1.6842371036373986E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 86,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0006754",
+                    "label": "ATP biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 6.312123745819398,
+                    "fdr": 5.835371971468751E-4,
+                    "expected": 1.7426781290980622,
+                    "pValue": 2.3672146439313024E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "PPCS",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "ACAT1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 195,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0009152",
+                    "label": "purine ribonucleotide biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 12,
+                    "fold_enrichment": 5.812817617165444,
+                    "fdr": 4.956924992217163E-4,
+                    "expected": 2.0644033221623195,
+                    "pValue": 1.8512662559471697E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "NADK2",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "PPCS",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "ACAT1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 231,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0006164",
+                    "label": "purine nucleotide biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 12,
+                    "fold_enrichment": 5.548598634567014,
+                    "fdr": 6.894321795929921E-4,
+                    "expected": 2.1627082422652872,
+                    "pValue": 2.929975779339181E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "NADK2",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "PPCS",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "ACAT1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 242,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0072522",
+                    "label": "purine-containing compound biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 49,
+                    "fold_enrichment": 1.682915966050124,
+                    "fdr": 0.030162815802299327,
+                    "expected": 29.116129972315314,
+                    "pValue": 2.2918301768649842E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "PUS10",
+                        "MT-ND4",
+                        "INTS14",
+                        "OAT",
+                        "ALAS1",
+                        "OSGEPL1",
+                        "ABCB6",
+                        "IBA57",
+                        "SMG9",
+                        "ACAT1",
+                        "NADK2",
+                        "MTHFD1L",
+                        "ZMAT2",
+                        "PPCS",
+                        "IARS2",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "COX10",
+                        "EARS2",
+                        "DMAC2L",
+                        "MGME1",
+                        "NDUFA8",
+                        "UQCC3",
+                        "MMAB",
+                        "MOCOS",
+                        "DARS2",
+                        "GATB",
+                        "EXOG",
+                        "CWC15",
+                        "REXO2",
+                        "HARS2",
+                        "SIRT1",
+                        "SARS2",
+                        "POLG2",
+                        "BDH1",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "TRMT12",
+                        "CMPK2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "NRDE2",
+                        "TRMT61A",
+                        "CARS2",
+                        "INTS6L"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 3258,
+                "term": {
+                    "level": 7,
+                    "id": "GO:1901360",
+                    "label": "organic cyclic compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 49,
+                    "fold_enrichment": 2.121060045412497,
+                    "fdr": 9.80568534207559E-5,
+                    "expected": 23.101656224197388,
+                    "pValue": 2.9044528379618614E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "MT-ND4",
+                        "OAT",
+                        "ALAS1",
+                        "ABCB6",
+                        "MRPS14",
+                        "IBA57",
+                        "ACAT1",
+                        "NADK2",
+                        "UGT8",
+                        "PDF",
+                        "MTHFD1L",
+                        "PPCS",
+                        "IMPA2",
+                        "IARS2",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "GLUL",
+                        "COX10",
+                        "EARS2",
+                        "PCK2",
+                        "DMAC2L",
+                        "NDUFA8",
+                        "ARG2",
+                        "MRPS26",
+                        "UQCC3",
+                        "MOCOS",
+                        "DARS2",
+                        "GATB",
+                        "MRPL48",
+                        "COQ9",
+                        "MCAT",
+                        "HARS2",
+                        "SIRT1",
+                        "GATM",
+                        "SARS2",
+                        "POLG2",
+                        "PIK3CA",
+                        "NDUFAB1",
+                        "TRMT12",
+                        "CMPK2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 2585,
+                "term": {
+                    "level": 7,
+                    "id": "GO:1901576",
+                    "label": "organic substance biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 52,
+                    "fold_enrichment": 2.197367988966242,
+                    "fdr": 1.4338354482148339E-5,
+                    "expected": 23.66467531205984,
+                    "pValue": 3.139111734662225E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "MT-ND4",
+                        "ALAS1",
+                        "MRPS14",
+                        "NADK2",
+                        "IMPA2",
+                        "GLUL",
+                        "EARS2",
+                        "ARG2",
+                        "MRPS26",
+                        "GPT2",
+                        "DARS2",
+                        "MRPL48",
+                        "SIRT1",
+                        "GCAT",
+                        "SARS2",
+                        "POLG2",
+                        "PIK3CA",
+                        "DDAH2",
+                        "CMPK2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "BCAT2",
+                        "OAT",
+                        "ABCB6",
+                        "IBA57",
+                        "ACAT1",
+                        "UGT8",
+                        "PDF",
+                        "MTHFD1L",
+                        "PPCS",
+                        "IARS2",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "COX10",
+                        "PCK2",
+                        "DMAC2L",
+                        "NDUFA8",
+                        "UQCC3",
+                        "MOCOS",
+                        "GATB",
+                        "COQ9",
+                        "MCAT",
+                        "HARS2",
+                        "GATM",
+                        "NDUFAB1",
+                        "TRMT12"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 2648,
+                "term": {
+                    "level": 8,
+                    "id": "GO:0009058",
+                    "label": "biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 23,
+                    "fold_enrichment": 2.326966546112116,
+                    "fdr": 0.027734047215338935,
+                    "expected": 9.88411287580747,
+                    "pValue": 2.0179957085211204E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "OAT",
+                        "ALAS1",
+                        "ABCB6",
+                        "UQCC3",
+                        "MOCOS",
+                        "IBA57",
+                        "SIRT1",
+                        "ACAT1",
+                        "NADK2",
+                        "POLG2",
+                        "PPCS",
+                        "NDUFAB1",
+                        "CMPK2",
+                        "CAMTA2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "COX10"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 1106,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0018130",
+                    "label": "heterocycle biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 48,
+                    "fold_enrichment": 1.8072151676517059,
+                    "fdr": 0.005712737813451874,
+                    "expected": 26.560202049638153,
+                    "pValue": 3.457806532288964E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "PUS10",
+                        "MT-ND4",
+                        "INTS14",
+                        "OAT",
+                        "ALAS1",
+                        "OSGEPL1",
+                        "ABCB6",
+                        "IBA57",
+                        "SMG9",
+                        "ACAT1",
+                        "NADK2",
+                        "MTHFD1L",
+                        "ZMAT2",
+                        "PPCS",
+                        "IARS2",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "COX10",
+                        "EARS2",
+                        "DMAC2L",
+                        "MGME1",
+                        "NDUFA8",
+                        "UQCC3",
+                        "MMAB",
+                        "MOCOS",
+                        "DARS2",
+                        "GATB",
+                        "EXOG",
+                        "CWC15",
+                        "REXO2",
+                        "HARS2",
+                        "SIRT1",
+                        "SARS2",
+                        "POLG2",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "TRMT12",
+                        "CMPK2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "NRDE2",
+                        "TRMT61A",
+                        "CARS2",
+                        "INTS6L"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 2972,
+                "term": {
+                    "level": 7,
+                    "id": "GO:0046483",
+                    "label": "heterocycle metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 49,
+                    "fold_enrichment": 2.4609246936226685,
+                    "fdr": 1.8064728061781518E-6,
+                    "expected": 19.911214726310163,
+                    "pValue": 2.7917158627350703E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "MT-ND4",
+                        "OAT",
+                        "ALAS1",
+                        "ABCB6",
+                        "MRPS14",
+                        "IBA57",
+                        "ACAT1",
+                        "NADK2",
+                        "UGT8",
+                        "PDF",
+                        "MTHFD1L",
+                        "PPCS",
+                        "IMPA2",
+                        "IARS2",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "GLUL",
+                        "COX10",
+                        "EARS2",
+                        "PCK2",
+                        "DMAC2L",
+                        "NDUFA8",
+                        "ARG2",
+                        "MRPS26",
+                        "UQCC3",
+                        "MOCOS",
+                        "DARS2",
+                        "GATB",
+                        "MRPL48",
+                        "COQ9",
+                        "MCAT",
+                        "HARS2",
+                        "SIRT1",
+                        "GATM",
+                        "SARS2",
+                        "POLG2",
+                        "PIK3CA",
+                        "DDAH2",
+                        "NDUFAB1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 2228,
+                "term": {
+                    "level": 7,
+                    "id": "GO:0044249",
+                    "label": "cellular biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 38,
+                    "fold_enrichment": 2.6038432865624754,
+                    "fdr": 2.460712803363693E-5,
+                    "expected": 14.593812229831462,
+                    "pValue": 5.5457146244513357E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "MT-ND4",
+                        "ALAS1",
+                        "ABCB6",
+                        "MRPS14",
+                        "IBA57",
+                        "ACAT1",
+                        "NADK2",
+                        "UGT8",
+                        "PDF",
+                        "PPCS",
+                        "IARS2",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "COX10",
+                        "EARS2",
+                        "DMAC2L",
+                        "NDUFA8",
+                        "ARG2",
+                        "MRPS26",
+                        "UQCC3",
+                        "DARS2",
+                        "GATB",
+                        "MRPL48",
+                        "HARS2",
+                        "SIRT1",
+                        "SARS2",
+                        "POLG2",
+                        "DDAH2",
+                        "NDUFAB1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 1633,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0044271",
+                    "label": "cellular nitrogen compound biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 54,
+                    "fold_enrichment": 1.8053253400189655,
+                    "fdr": 0.0023702093134038596,
+                    "expected": 29.91150614405751,
+                    "pValue": 1.2514949368906406E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "PUS10",
+                        "MT-ND4",
+                        "INTS14",
+                        "ALAS1",
+                        "OSGEPL1",
+                        "MRPS14",
+                        "SMG9",
+                        "NADK2",
+                        "CPT2",
+                        "EARS2",
+                        "ARG2",
+                        "MRPS26",
+                        "DARS2",
+                        "MRPL48",
+                        "REXO2",
+                        "SIRT1",
+                        "SARS2",
+                        "POLG2",
+                        "DDAH2",
+                        "CMPK2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "INTS6L",
+                        "ABCB6",
+                        "IBA57",
+                        "ACAT1",
+                        "UGT8",
+                        "PDF",
+                        "ZMAT2",
+                        "PPCS",
+                        "IARS2",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "COX10",
+                        "DMAC2L",
+                        "MGME1",
+                        "NDUFA8",
+                        "UQCC3",
+                        "GATB",
+                        "EXOG",
+                        "CWC15",
+                        "HARS2",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "TRMT12",
+                        "NRDE2",
+                        "TRMT61A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 3347,
+                "term": {
+                    "level": 7,
+                    "id": "GO:0034641",
+                    "label": "cellular nitrogen compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 93,
+                    "fold_enrichment": 1.5733892862307886,
+                    "fdr": 9.618662895425253E-5,
+                    "expected": 59.10806741463888,
+                    "pValue": 2.9109926341596065E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "MIPEP",
+                        "MT-ND4L",
+                        "PUS10",
+                        "MT-ND4",
+                        "INTS14",
+                        "ALAS1",
+                        "OSGEPL1",
+                        "MRPS14",
+                        "SMG9",
+                        "ETFB",
+                        "PCMTD2",
+                        "NADK2",
+                        "CPT2",
+                        "DBT",
+                        "TRIM3",
+                        "GLUL",
+                        "EARS2",
+                        "BNIP3L",
+                        "ARG2",
+                        "MRPS26",
+                        "SLC6A17",
+                        "GPT2",
+                        "AMT",
+                        "SIRT5",
+                        "DARS2",
+                        "MRPL48",
+                        "REXO2",
+                        "SIRT1",
+                        "KCTD6",
+                        "GCAT",
+                        "IMMP1L",
+                        "SARS2",
+                        "POLG2",
+                        "DDAH2",
+                        "TRAF6",
+                        "CMPK2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "INTS6L",
+                        "BCAT2",
+                        "ANAPC13",
+                        "OAT",
+                        "ABCB6",
+                        "IBA57",
+                        "OMA1",
+                        "BPHL",
+                        "ACAT1",
+                        "PRDX3",
+                        "DCAF15",
+                        "NLN",
+                        "UGT8",
+                        "PDF",
+                        "MTHFD1L",
+                        "ZMAT2",
+                        "PPCS",
+                        "GRK6",
+                        "IARS2",
+                        "D2HGDH",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "COX10",
+                        "PCK2",
+                        "DMAC2L",
+                        "MGME1",
+                        "NDUFA8",
+                        "UBE2H",
+                        "UQCC3",
+                        "MMAB",
+                        "SIAH1",
+                        "MOCOS",
+                        "GATB",
+                        "EXOG",
+                        "CWC15",
+                        "HARS2",
+                        "FBXL12",
+                        "MAPK11",
+                        "DAP",
+                        "GATM",
+                        "P4HA1",
+                        "XPNPEP3",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "PCYOX1L",
+                        "TRMT12",
+                        "NRDE2",
+                        "TRMT61A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 6614,
+                "term": {
+                    "level": 8,
+                    "id": "GO:0006807",
+                    "label": "nitrogen compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 14,
+                    "fold_enrichment": 3.450560237502394,
+                    "fdr": 0.011984091091963916,
+                    "expected": 4.0573121569770265,
+                    "pValue": 7.716736054065625E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "ACAT1",
+                        "NADK2",
+                        "PPCS",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 454,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0072521",
+                    "label": "purine-containing compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 77,
+                    "fold_enrichment": 1.7739445981147783,
+                    "fdr": 2.855718711090466E-5,
+                    "expected": 43.40609063091942,
+                    "pValue": 6.619824442965665E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "MIPEP",
+                        "MT-ND4L",
+                        "MT-ND4",
+                        "ALAS1",
+                        "MRPS14",
+                        "ETFB",
+                        "PCMTD2",
+                        "NADK2",
+                        "CPT2",
+                        "DBT",
+                        "TRIM3",
+                        "GLUL",
+                        "EARS2",
+                        "BNIP3L",
+                        "ARG2",
+                        "MRPS26",
+                        "SLC6A17",
+                        "GPT2",
+                        "AMT",
+                        "SIRT5",
+                        "DARS2",
+                        "MRPL48",
+                        "SIRT1",
+                        "KCTD6",
+                        "GCAT",
+                        "IMMP1L",
+                        "SARS2",
+                        "DDAH2",
+                        "TRAF6",
+                        "CMPK2",
+                        "NDUFS1",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "BCAT2",
+                        "ANAPC13",
+                        "OAT",
+                        "ABCB6",
+                        "IBA57",
+                        "OMA1",
+                        "BPHL",
+                        "ACAT1",
+                        "PRDX3",
+                        "DCAF15",
+                        "NLN",
+                        "UGT8",
+                        "PDF",
+                        "MTHFD1L",
+                        "PPCS",
+                        "GRK6",
+                        "IARS2",
+                        "D2HGDH",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "COX10",
+                        "DMAC2L",
+                        "NDUFA8",
+                        "UBE2H",
+                        "UQCC3",
+                        "MMAB",
+                        "SIAH1",
+                        "MOCOS",
+                        "GATB",
+                        "HARS2",
+                        "FBXL12",
+                        "MAPK11",
+                        "DAP",
+                        "GATM",
+                        "P4HA1",
+                        "XPNPEP3",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "PCYOX1L",
+                        "TRMT12"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 4857,
+                "term": {
+                    "level": 7,
+                    "id": "GO:1901564",
+                    "label": "organonitrogen compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 46,
+                    "fold_enrichment": 1.706647877984085,
+                    "fdr": 0.029975243785631836,
+                    "expected": 26.953421730050025,
+                    "pValue": 2.2582765762517223E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "PUS10",
+                        "MT-ND4",
+                        "INTS14",
+                        "ALAS1",
+                        "OSGEPL1",
+                        "ABCB6",
+                        "IBA57",
+                        "SMG9",
+                        "ACAT1",
+                        "NADK2",
+                        "MTHFD1L",
+                        "ZMAT2",
+                        "PPCS",
+                        "IARS2",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "COX10",
+                        "EARS2",
+                        "DMAC2L",
+                        "MGME1",
+                        "NDUFA8",
+                        "UQCC3",
+                        "MMAB",
+                        "DARS2",
+                        "GATB",
+                        "EXOG",
+                        "CWC15",
+                        "REXO2",
+                        "HARS2",
+                        "SIRT1",
+                        "SARS2",
+                        "POLG2",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "TRMT12",
+                        "CMPK2",
+                        "NDUFS1",
+                        "POLR1G",
+                        "NRDE2",
+                        "TRMT61A",
+                        "CARS2",
+                        "INTS6L"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 3016,
+                "term": {
+                    "level": 7,
+                    "id": "GO:0006725",
+                    "label": "cellular aromatic compound metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 39,
+                    "fold_enrichment": 3.2373685653464066,
+                    "fdr": 8.64466415970667E-8,
+                    "expected": 12.046821118072758,
+                    "pValue": 8.906286320367465E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "MT-ND4",
+                        "OAT",
+                        "ALAS1",
+                        "ABCB6",
+                        "MRPS14",
+                        "IBA57",
+                        "ACAT1",
+                        "NADK2",
+                        "UGT8",
+                        "PDF",
+                        "PPCS",
+                        "IARS2",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "GLUL",
+                        "COX10",
+                        "EARS2",
+                        "DMAC2L",
+                        "NDUFA8",
+                        "ARG2",
+                        "MRPS26",
+                        "UQCC3",
+                        "MOCOS",
+                        "DARS2",
+                        "GATB",
+                        "MRPL48",
+                        "HARS2",
+                        "GATM",
+                        "SARS2",
+                        "NDUFAB1",
+                        "TRMT12",
+                        "CMPK2",
+                        "NDUFS1",
+                        "AURKAIP1",
+                        "CARS2",
+                        "ALDH7A1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 1348,
+                "term": {
+                    "level": 6,
+                    "id": "GO:1901566",
+                    "label": "organonitrogen compound biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 13,
+                    "fold_enrichment": 5.448155837811432,
+                    "fdr": 3.773989367065412E-4,
+                    "expected": 2.386128515226577,
+                    "pValue": 1.3608718902489574E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "ACAT1",
+                        "NADK2",
+                        "PPCS",
+                        "NDUFAB1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 267,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0009165",
+                    "label": "nucleotide biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 16,
+                    "fold_enrichment": 3.7144145769438937,
+                    "fdr": 0.0019505740598398285,
+                    "expected": 4.307542862693671,
+                    "pValue": 9.796830435769904E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "REXO2",
+                        "ACAT1",
+                        "NADK2",
+                        "PPCS",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 482,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0009117",
+                    "label": "nucleotide metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 16,
+                    "fold_enrichment": 3.646329584698486,
+                    "fdr": 0.002344586299036105,
+                    "expected": 4.387974160959736,
+                    "pValue": 1.222868578376848E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "REXO2",
+                        "ACAT1",
+                        "NADK2",
+                        "PPCS",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 491,
+                "term": {
+                    "level": 7,
+                    "id": "GO:0006753",
+                    "label": "nucleoside phosphate metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 16,
+                    "fold_enrichment": 3.1856722884109545,
+                    "fdr": 0.009413589812244239,
+                    "expected": 5.0224877361698,
+                    "pValue": 5.940320679973828E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "REXO2",
+                        "ACAT1",
+                        "NADK2",
+                        "PPCS",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 562,
+                "term": {
+                    "level": 8,
+                    "id": "GO:0055086",
+                    "label": "nucleobase-containing small molecule metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 99,
+                    "fold_enrichment": 1.5460959070360145,
+                    "fdr": 7.558294384742012E-5,
+                    "expected": 64.03225023070571,
+                    "pValue": 2.092766635826829E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "PUS10",
+                        "MT-ND4",
+                        "OSGEPL1",
+                        "ABHD11",
+                        "GLUL",
+                        "EARS2",
+                        "BNIP3L",
+                        "SLC6A17",
+                        "GPT2",
+                        "KCTD6",
+                        "GCAT",
+                        "POLG2",
+                        "CMPK2",
+                        "IDNK",
+                        "AURKAIP1",
+                        "CARS2",
+                        "INTS6L",
+                        "ANAPC13",
+                        "OMA1",
+                        "ACAT1",
+                        "PRDX3",
+                        "NLN",
+                        "UGT8",
+                        "ZMAT2",
+                        "PPCS",
+                        "GRK6",
+                        "CAMTA2",
+                        "NDUFV3",
+                        "RDH13",
+                        "NDUFV2",
+                        "COX10",
+                        "PCK2",
+                        "DECR1",
+                        "DMAC2L",
+                        "UBE2H",
+                        "UQCC3",
+                        "SIAH1",
+                        "CWC15",
+                        "MCAT",
+                        "HARS2",
+                        "DAP",
+                        "P4HA1",
+                        "OGDH",
+                        "TRMT12",
+                        "MIPEP",
+                        "ACADVL",
+                        "INTS14",
+                        "ALAS1",
+                        "MRPS14",
+                        "HEXD",
+                        "SMG9",
+                        "ETFB",
+                        "PCMTD2",
+                        "NADK2",
+                        "CPT2",
+                        "IMPA2",
+                        "DBT",
+                        "TRIM3",
+                        "ACADS",
+                        "IDH3A",
+                        "ARG2",
+                        "MRPS26",
+                        "AMT",
+                        "SIRT5",
+                        "DARS2",
+                        "MRPL48",
+                        "REXO2",
+                        "SIRT1",
+                        "IMMP1L",
+                        "SARS2",
+                        "PIK3CA",
+                        "BDH1",
+                        "DDAH2",
+                        "TRAF6",
+                        "NDUFS1",
+                        "POLR1G",
+                        "BCAT2",
+                        "OAT",
+                        "BPHL",
+                        "DCAF15",
+                        "PDF",
+                        "IARS2",
+                        "D2HGDH",
+                        "MGME1",
+                        "NDUFA8",
+                        "MOCOS",
+                        "GATB",
+                        "EXOG",
+                        "FBXL12",
+                        "MAPK11",
+                        "XPNPEP3",
+                        "NDUFAB1",
+                        "SARM1",
+                        "PCYOX1L",
+                        "NRDE2",
+                        "TRMT61A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 7165,
+                "term": {
+                    "level": 10,
+                    "id": "GO:0044238",
+                    "label": "primary metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 13,
+                    "fold_enrichment": 5.407649102957814,
+                    "fdr": 4.013420178270978E-4,
+                    "expected": 2.4040021370634808,
+                    "pValue": 1.4730518361973325E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "ACAT1",
+                        "NADK2",
+                        "PPCS",
+                        "NDUFAB1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 269,
+                "term": {
+                    "level": 6,
+                    "id": "GO:1901293",
+                    "label": "nucleoside phosphate biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 16,
+                    "fold_enrichment": 3.2730307606708533,
+                    "fdr": 0.007041385007927738,
+                    "expected": 4.888435572393025,
+                    "pValue": 4.3526913120480544E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "MOCOS",
+                        "ACAT1",
+                        "NADK2",
+                        "PIK3CA",
+                        "PPCS",
+                        "IMPA2",
+                        "NDUFAB1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 547,
+                "term": {
+                    "level": 7,
+                    "id": "GO:0090407",
+                    "label": "organophosphate biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 14,
+                    "fold_enrichment": 3.7122140943746134,
+                    "fdr": 0.0058970316783305225,
+                    "expected": 3.7713342075865754,
+                    "pValue": 3.607327813531228E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "ACAT1",
+                        "NADK2",
+                        "PPCS",
+                        "NDUFAB1",
+                        "OGDH",
+                        "SARM1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 422,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0006163",
+                    "label": "purine nucleotide metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 12,
+                    "fold_enrichment": 3.926201372997712,
+                    "fdr": 0.012134773584880021,
+                    "expected": 3.056389334110447,
+                    "pValue": 7.8919003996966E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "PPCS",
+                        "NDUFAB1",
+                        "OGDH",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "ACAT1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 342,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0009150",
+                    "label": "purine ribonucleotide metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 12,
+                    "fold_enrichment": 3.6990657563780096,
+                    "fdr": 0.019327337806439134,
+                    "expected": 3.244062363397931,
+                    "pValue": 1.3565227436586387E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "PPCS",
+                        "NDUFAB1",
+                        "OGDH",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "ACAT1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 363,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0009259",
+                    "label": "ribonucleotide metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 12,
+                    "fold_enrichment": 3.609572230014025,
+                    "fdr": 0.023650137054376574,
+                    "expected": 3.3244936616639955,
+                    "pValue": 1.690383266603863E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "PPCS",
+                        "NDUFAB1",
+                        "OGDH",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "ACAT1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 372,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0019693",
+                    "label": "ribose phosphate metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 5.861257763975155,
+                    "fdr": 0.0010487963545862935,
+                    "expected": 1.8767302928748362,
+                    "pValue": 4.659816385476771E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "PPCS",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "ACAT1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 210,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0009260",
+                    "label": "ribonucleotide biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 5.6721849328791825,
+                    "fdr": 0.0013532437407196374,
+                    "expected": 1.9392879693039973,
+                    "pValue": 6.273892423168956E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "PPCS",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2",
+                        "ACAT1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 217,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0046390",
+                    "label": "ribose phosphate biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 8.534497052321298,
+                    "fdr": 5.15836669412222E-4,
+                    "expected": 1.0545436883772887,
+                    "pValue": 1.992929823872075E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 118,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0046034",
+                    "label": "ATP metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 7.042452113104287,
+                    "fdr": 0.0017827620102205677,
+                    "expected": 1.277963961338579,
+                    "pValue": 8.724398762186938E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 143,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0009205",
+                    "label": "purine ribonucleoside triphosphate metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 6.80453143360752,
+                    "fdr": 0.0021993195445862554,
+                    "expected": 1.322648015930837,
+                    "pValue": 1.1329398813065062E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 148,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0009144",
+                    "label": "purine nucleoside triphosphate metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 6.700403540744598,
+                    "fdr": 9.521360453605988E-4,
+                    "expected": 1.4924474233814171,
+                    "pValue": 4.169043856054135E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 167,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0009141",
+                    "label": "nucleoside triphosphate metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 6.713804347826087,
+                    "fdr": 0.0023469527186787452,
+                    "expected": 1.34052163776774,
+                    "pValue": 1.254327595945498E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 150,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0009199",
+                    "label": "ribonucleoside triphosphate metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 10.38217167189601,
+                    "fdr": 1.344954804515458E-4,
+                    "expected": 0.8668706590898053,
+                    "pValue": 4.3301828863987704E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 97,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0009206",
+                    "label": "purine ribonucleoside triphosphate biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 10.276231144631765,
+                    "fdr": 1.428798104566138E-4,
+                    "expected": 0.8758074700082569,
+                    "pValue": 4.6921251341193194E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 98,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0009145",
+                    "label": "purine nucleoside triphosphate biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 10,
+                    "fold_enrichment": 9.815503432494278,
+                    "fdr": 6.319283018128898E-5,
+                    "expected": 1.0187964447034825,
+                    "pValue": 1.586941646535911E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "CMPK2",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 114,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0009142",
+                    "label": "nucleoside triphosphate biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 9.777384972562261,
+                    "fdr": 2.02854933813714E-4,
+                    "expected": 0.9204915246005149,
+                    "pValue": 6.922930774067509E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "DMAC2L",
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 103,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0009201",
+                    "label": "ribonucleoside triphosphate biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 10.343396054073805,
+                    "fdr": 1.1032157564222944E-5,
+                    "expected": 1.0634804992957403,
+                    "pValue": 2.273206967515352E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "COQ9",
+                        "COX5B",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 119,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006119",
+                    "label": "oxidative phosphorylation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 15,
+                    "fold_enrichment": 10.42516203078585,
+                    "fdr": 5.8312862039535756E-8,
+                    "expected": 1.4388265578707076,
+                    "pValue": 5.256793744710242E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "COQ9",
+                        "COX5B",
+                        "NDUFAB1",
+                        "OGDH",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "NDUFV2",
+                        "COX10",
+                        "SLC25A14",
+                        "IDH3A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 161,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0009060",
+                    "label": "aerobic respiration"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 17,
+                    "fold_enrichment": 9.856189457084929,
+                    "fdr": 1.0238593189800571E-8,
+                    "expected": 1.724804507261159,
+                    "pValue": 5.9335053900969186E-12,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "ETFB",
+                        "COQ9",
+                        "COX5B",
+                        "POLG2",
+                        "NDUFAB1",
+                        "OGDH",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "NDUFV2",
+                        "COX10",
+                        "SLC25A14",
+                        "IDH3A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 193,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0045333",
+                    "label": "cellular respiration"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 18,
+                    "fold_enrichment": 7.629323122529644,
+                    "fdr": 7.579557714524456E-8,
+                    "expected": 2.3593180824712228,
+                    "pValue": 7.320886395226456E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "ACADVL",
+                        "MT-ND4",
+                        "UQCC3",
+                        "ETFB",
+                        "COQ9",
+                        "COX5B",
+                        "POLG2",
+                        "NDUFAB1",
+                        "OGDH",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "NDUFV2",
+                        "COX10",
+                        "SLC25A14",
+                        "IDH3A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 264,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0015980",
+                    "label": "energy derivation by oxidation of organic compounds"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 20,
+                    "fold_enrichment": 6.015953716690042,
+                    "fdr": 2.8832473916945833E-7,
+                    "expected": 3.3244936616639955,
+                    "pValue": 3.3418192563105275E-10,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "ACADVL",
+                        "MT-ND4",
+                        "UQCC3",
+                        "ETFB",
+                        "COQ9",
+                        "COX5B",
+                        "ACAT1",
+                        "POLG2",
+                        "NDUFAB1",
+                        "OGDH",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "NDUFV2",
+                        "SLC25A4",
+                        "COX10",
+                        "SLC25A14",
+                        "IDH3A"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 372,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0006091",
+                    "label": "generation of precursor metabolites and energy"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 12.63350280504909,
+                    "fdr": 6.286423288910828E-4,
+                    "expected": 0.5540822769439991,
+                    "pValue": 2.590670254283921E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "MIPEP",
+                        "IMMP1L",
+                        "TIMM29",
+                        "GRPEL1",
+                        "AIFM1",
+                        "TOMM34",
+                        "TIMM10"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 62,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0006626",
+                    "label": "protein targeting to mitochondrion"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 10.172430830039525,
+                    "fdr": 0.0019618351046989165,
+                    "expected": 0.6881344407207732,
+                    "pValue": 9.727063944740282E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "MIPEP",
+                        "IMMP1L",
+                        "TIMM29",
+                        "GRPEL1",
+                        "AIFM1",
+                        "TOMM34",
+                        "TIMM10"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 77,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0072655",
+                    "label": "establishment of protein localization to mitochondrion"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 8,
+                    "fold_enrichment": 10.172430830039527,
+                    "fdr": 5.560722739013429E-4,
+                    "expected": 0.7864393608237408,
+                    "pValue": 2.2199923362448976E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "MIPEP",
+                        "IMMP1L",
+                        "TIMM29",
+                        "GRPEL1",
+                        "AIFM1",
+                        "TOMM34",
+                        "SARM1",
+                        "TIMM10"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 88,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0070585",
+                    "label": "protein localization to mitochondrion"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 8,
+                    "fold_enrichment": 14.438288920056102,
+                    "fdr": 7.107986463052863E-5,
+                    "expected": 0.5540822769439991,
+                    "pValue": 1.92231443302138E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "NDUFA8",
+                        "MT-ND4",
+                        "AIFM1",
+                        "NDUFAF4",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "MIEF1",
+                        "NDUFAF1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 62,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0032981",
+                    "label": "mitochondrial respiratory chain complex I assembly"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 8,
+                    "fold_enrichment": 14.438288920056102,
+                    "fdr": 7.281351986541957E-5,
+                    "expected": 0.5540822769439991,
+                    "pValue": 1.92231443302138E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "NDUFA8",
+                        "MT-ND4",
+                        "AIFM1",
+                        "NDUFAF4",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "MIEF1",
+                        "NDUFAF1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 62,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0010257",
+                    "label": "NADH dehydrogenase complex assembly"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 15,
+                    "fold_enrichment": 16.45540281329923,
+                    "fdr": 6.778337584536425E-10,
+                    "expected": 0.9115547136820633,
+                    "pValue": 1.3094019802710415E-13,
+                    "mapped_id_list": {"mapped_id": [
+                        "NDUFA8",
+                        "MT-ND4",
+                        "SMIM4",
+                        "UQCC3",
+                        "UQCC2",
+                        "TACO1",
+                        "MIEF1",
+                        "OMA1",
+                        "TMEM223",
+                        "AIFM1",
+                        "NDUFAF4",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFAF1",
+                        "COA5"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 102,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0033108",
+                    "label": "mitochondrial respiratory chain complex assembly"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 4,
+                    "fold_enrichment": 14.919565217391304,
+                    "fdr": 0.03031115086706905,
+                    "expected": 0.268104327553548,
+                    "pValue": 2.244547552938146E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "ALAS1",
+                        "ABCB6",
+                        "IBA57",
+                        "COX10"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 30,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0006779",
+                    "label": "porphyrin-containing compound biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 5,
+                    "fold_enrichment": 9.990780279503106,
+                    "fdr": 0.02800552026790508,
+                    "expected": 0.5004614114332896,
+                    "pValue": 2.0557819127760328E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "ALAS1",
+                        "ABCB6",
+                        "MMAB",
+                        "IBA57",
+                        "COX10"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 56,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0033013",
+                    "label": "tetrapyrrole metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 4,
+                    "fold_enrichment": 14.919565217391304,
+                    "fdr": 0.03004984784235294,
+                    "expected": 0.268104327553548,
+                    "pValue": 2.244547552938146E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "ALAS1",
+                        "ABCB6",
+                        "IBA57",
+                        "COX10"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 30,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0033014",
+                    "label": "tetrapyrrole biosynthetic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 4,
+                    "fold_enrichment": 17.903478260869566,
+                    "fdr": 0.01743354999754272,
+                    "expected": 0.22342027296129002,
+                    "pValue": 1.1899267866964124E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "TMEM223",
+                        "SMIM4",
+                        "TACO1",
+                        "COA5"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 25,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0033617",
+                    "label": "mitochondrial cytochrome c oxidase assembly"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 6,
+                    "fold_enrichment": 22.379347826086956,
+                    "fdr": 1.9992590224215753E-4,
+                    "expected": 0.268104327553548,
+                    "pValue": 6.951705551240507E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "TMEM223",
+                        "SMIM4",
+                        "TACO1",
+                        "COX10",
+                        "COA5",
+                        "SLC25A46"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 30,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0008535",
+                    "label": "respiratory chain complex IV assembly"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 8,
+                    "fold_enrichment": 22.379347826086956,
+                    "fdr": 5.217254633456174E-6,
+                    "expected": 0.357472436738064,
+                    "pValue": 9.070565042068041E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "TMEM223",
+                        "SMIM4",
+                        "UQCC3",
+                        "UQCC2",
+                        "TACO1",
+                        "COX10",
+                        "COA5",
+                        "SLC25A46"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 40,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0017004",
+                    "label": "cytochrome complex assembly"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 21.89284026465028,
+                    "fdr": 9.589755478740865E-7,
+                    "expected": 0.41109330224877366,
+                    "pValue": 1.2349974859936723E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "COQ9",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 46,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0006120",
+                    "label": "mitochondrial electron transport, NADH to ubiquinone"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 14.147863568215893,
+                    "fdr": 9.152546704696077E-7,
+                    "expected": 0.7775025499052892,
+                    "pValue": 1.11975780675612E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "COQ9",
+                        "COX5B",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 87,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0019646",
+                    "label": "aerobic electron transport chain"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 13,
+                    "fold_enrichment": 12.649196597353496,
+                    "fdr": 1.0746368149320265E-7,
+                    "expected": 1.027733255621934,
+                    "pValue": 1.1763571058496105E-10,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "ETFB",
+                        "COQ9",
+                        "COX5B",
+                        "POLG2",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 115,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0022904",
+                    "label": "respiratory electron transport chain"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 13,
+                    "fold_enrichment": 8.658676242236027,
+                    "fdr": 5.106617158025433E-6,
+                    "expected": 1.5013842342998687,
+                    "pValue": 8.549391249752818E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "ETFB",
+                        "COQ9",
+                        "COX5B",
+                        "POLG2",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 168,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0022900",
+                    "label": "electron transport chain"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 13.378957939508505,
+                    "fdr": 1.3542255974990514E-6,
+                    "expected": 0.8221866044975473,
+                    "pValue": 1.918413595941992E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "COQ9",
+                        "COX5B",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 92,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0042775",
+                    "label": "mitochondrial ATP synthesis coupled electron transport"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 13.378957939508505,
+                    "fdr": 1.2953462236947449E-6,
+                    "expected": 0.8221866044975473,
+                    "pValue": 1.918413595941992E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "MT-ND4L",
+                        "NDUFA8",
+                        "MT-ND4",
+                        "UQCC3",
+                        "NDUFAB1",
+                        "NDUFS1",
+                        "NDUFV3",
+                        "NDUFAF1",
+                        "COQ9",
+                        "COX5B",
+                        "NDUFV2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 92,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0042773",
+                    "label": "ATP synthesis coupled electron transport"
+                }
+            }
+        ]},
+        {"result": {
+            "input_list": {
+                "number_in_list": 4,
+                "fold_enrichment": 26.328644501278774,
+                "fdr": 0.0052922075285876296,
+                "expected": 0.1519257856136772,
+                "pValue": 3.1691905998625215E-5,
+                "mapped_id_list": {"mapped_id": [
+                    "MTFP1",
+                    "MIEF1",
+                    "COX10",
+                    "SLC25A46"
+                ]},
+                "list_name": "upload_1",
+                "plus_minus": "+"
+            },
+            "number_in_reference": 17,
+            "term": {
+                "level": 0,
+                "id": "GO:0000266",
+                "label": "mitochondrial fission"
+            }
+        }},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 3,
+                    "fold_enrichment": 27.974184782608695,
+                    "fdr": 0.036314938273023796,
+                    "expected": 0.1072417310214192,
+                    "pValue": 2.8761992321841125E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "SMIM4",
+                        "UQCC3",
+                        "UQCC2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 12,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0034551",
+                    "label": "mitochondrial respiratory chain complex III assembly"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 3,
+                    "fold_enrichment": 27.974184782608695,
+                    "fdr": 0.0366126017014912,
+                    "expected": 0.1072417310214192,
+                    "pValue": 2.8761992321841125E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "SMIM4",
+                        "UQCC3",
+                        "UQCC2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 12,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0017062",
+                    "label": "respiratory chain complex III assembly"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 4,
+                    "fold_enrichment": 29.839130434782607,
+                    "fdr": 0.0037148349106288616,
+                    "expected": 0.134052163776774,
+                    "pValue": 2.0810730020908628E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "UQCC3",
+                        "IMMT",
+                        "OMA1",
+                        "SLC25A46"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 15,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0042407",
+                    "label": "cristae formation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 21.169653349001173,
+                    "fdr": 4.5311344909303965E-5,
+                    "expected": 0.33066200398270923,
+                    "pValue": 1.108712882519994E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "TIMM29",
+                        "UQCC3",
+                        "IMMT",
+                        "TIMM10",
+                        "GHITM",
+                        "OMA1",
+                        "SLC25A46"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 37,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0007007",
+                    "label": "inner mitochondrial membrane organization"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 3,
+                    "fold_enrichment": 30.517292490118578,
+                    "fdr": 0.030225157055279034,
+                    "expected": 0.0983049201029676,
+                    "pValue": 2.316029420204897E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "ETFB",
+                        "ACADS"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 11,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0033539",
+                    "label": "fatty acid beta-oxidation using acyl-CoA dehydrogenase"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 13.054619565217392,
+                    "fdr": 5.396189902645797E-4,
+                    "expected": 0.536208655107096,
+                    "pValue": 2.11955945950672E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "CPT2",
+                        "ETFB",
+                        "MCAT",
+                        "ACADS",
+                        "ACAT1",
+                        "DECR1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 60,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006635",
+                    "label": "fatty acid beta-oxidation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 8,
+                    "fold_enrichment": 9.83707596751075,
+                    "fdr": 6.69524286147692E-4,
+                    "expected": 0.8132497935790957,
+                    "pValue": 2.8022587636574363E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "CPT2",
+                        "ETFB",
+                        "MCAT",
+                        "ACADS",
+                        "ACAT1",
+                        "PCK2",
+                        "DECR1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 91,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0009062",
+                    "label": "fatty acid catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 25,
+                    "fold_enrichment": 2.599831299498949,
+                    "fdr": 0.002700906609637965,
+                    "expected": 9.616008548253923,
+                    "pValue": 1.4608896021222735E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "OAT",
+                        "SMG9",
+                        "ETFB",
+                        "DEPP1",
+                        "ACAT1",
+                        "PRDX3",
+                        "CPT2",
+                        "DBT",
+                        "GLUL",
+                        "ACADS",
+                        "PCK2",
+                        "DECR1",
+                        "SLC25A46",
+                        "ARG2",
+                        "GPT2",
+                        "AMT",
+                        "EXOG",
+                        "MCAT",
+                        "GCAT",
+                        "DAP",
+                        "DDAH2",
+                        "SARM1",
+                        "IDNK",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 1076,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0044248",
+                    "label": "cellular catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 38,
+                    "fold_enrichment": 2.1442642899427744,
+                    "fdr": 0.0015648571391665815,
+                    "expected": 17.721696051289523,
+                    "pValue": 7.456498924554219E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "ANAPC13",
+                        "ACADVL",
+                        "OAT",
+                        "SMG9",
+                        "OMA1",
+                        "ETFB",
+                        "DEPP1",
+                        "ACAT1",
+                        "PRDX3",
+                        "CPT2",
+                        "DBT",
+                        "TRIM3",
+                        "GLUL",
+                        "ACADS",
+                        "PCK2",
+                        "DECR1",
+                        "SLC25A46",
+                        "BNIP3L",
+                        "ARG2",
+                        "UBE2H",
+                        "SLC6A17",
+                        "GPT2",
+                        "SIAH1",
+                        "AMT",
+                        "EXOG",
+                        "MCAT",
+                        "SIRT1",
+                        "KCTD6",
+                        "GCAT",
+                        "FBXL12",
+                        "DAP",
+                        "DDAH2",
+                        "OGDH",
+                        "SARM1",
+                        "PCYOX1L",
+                        "IDNK",
+                        "ALDH7A1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 1983,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0009056",
+                    "label": "catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 35,
+                    "fold_enrichment": 2.2916242653980206,
+                    "fdr": 0.0011739198433116604,
+                    "expected": 15.273009859633785,
+                    "pValue": 5.366922657767411E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "ANAPC13",
+                        "ACADVL",
+                        "OAT",
+                        "SMG9",
+                        "OMA1",
+                        "ETFB",
+                        "ACAT1",
+                        "PRDX3",
+                        "CPT2",
+                        "DBT",
+                        "TRIM3",
+                        "GLUL",
+                        "ACADS",
+                        "PCK2",
+                        "DECR1",
+                        "BNIP3L",
+                        "ARG2",
+                        "UBE2H",
+                        "SLC6A17",
+                        "GPT2",
+                        "SIAH1",
+                        "AMT",
+                        "EXOG",
+                        "MCAT",
+                        "SIRT1",
+                        "KCTD6",
+                        "GCAT",
+                        "FBXL12",
+                        "DDAH2",
+                        "OGDH",
+                        "SARM1",
+                        "PCYOX1L",
+                        "IDNK",
+                        "ALDH7A1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 1709,
+                "term": {
+                    "level": 5,
+                    "id": "GO:1901575",
+                    "label": "organic substance catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 8.607441471571907,
+                    "fdr": 4.911126115551288E-4,
+                    "expected": 1.0456068774588372,
+                    "pValue": 1.8657851952190988E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "CPT2",
+                        "IDNK",
+                        "ETFB",
+                        "MCAT",
+                        "ACADS",
+                        "ACAT1",
+                        "PCK2",
+                        "DECR1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 117,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0072329",
+                    "label": "monocarboxylic acid catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 18,
+                    "fold_enrichment": 8.607441471571907,
+                    "fdr": 1.6046219664403353E-8,
+                    "expected": 2.0912137549176744,
+                    "pValue": 1.1365641745552923E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "ACADVL",
+                        "OAT",
+                        "GPT2",
+                        "AMT",
+                        "ETFB",
+                        "MCAT",
+                        "GCAT",
+                        "ACAT1",
+                        "CPT2",
+                        "DDAH2",
+                        "DBT",
+                        "IDNK",
+                        "GLUL",
+                        "ACADS",
+                        "PCK2",
+                        "DECR1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 234,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0046395",
+                    "label": "carboxylic acid catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 18,
+                    "fold_enrichment": 8.607441471571907,
+                    "fdr": 1.765084163084369E-8,
+                    "expected": 2.0912137549176744,
+                    "pValue": 1.1365641745552923E-11,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "ACADVL",
+                        "OAT",
+                        "GPT2",
+                        "AMT",
+                        "ETFB",
+                        "MCAT",
+                        "GCAT",
+                        "ACAT1",
+                        "CPT2",
+                        "DDAH2",
+                        "DBT",
+                        "IDNK",
+                        "GLUL",
+                        "ACADS",
+                        "PCK2",
+                        "DECR1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 234,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0016054",
+                    "label": "organic acid catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 18,
+                    "fold_enrichment": 5.67363747703613,
+                    "fdr": 3.991326404889378E-6,
+                    "expected": 3.172567876050318,
+                    "pValue": 6.425187387136796E-9,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "ACADVL",
+                        "OAT",
+                        "GPT2",
+                        "AMT",
+                        "ETFB",
+                        "MCAT",
+                        "GCAT",
+                        "ACAT1",
+                        "CPT2",
+                        "DDAH2",
+                        "DBT",
+                        "IDNK",
+                        "GLUL",
+                        "ACADS",
+                        "PCK2",
+                        "DECR1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 355,
+                "term": {
+                    "level": 6,
+                    "id": "GO:0044282",
+                    "label": "small molecule catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 9.324728260869566,
+                    "fdr": 0.002979717959094169,
+                    "expected": 0.7506921171499343,
+                    "pValue": 1.6500691853322507E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "CPT2",
+                        "ETFB",
+                        "MCAT",
+                        "ACADS",
+                        "ACAT1",
+                        "DECR1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 84,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0019395",
+                    "label": "fatty acid oxidation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 8.703079710144927,
+                    "fdr": 0.004228002825150811,
+                    "expected": 0.8043129826606441,
+                    "pValue": 2.5046764965478084E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "ACADVL",
+                        "CPT2",
+                        "ETFB",
+                        "MCAT",
+                        "ACADS",
+                        "ACAT1",
+                        "DECR1"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 90,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0034440",
+                    "label": "lipid oxidation"
+                }
+            }
+        ]},
+        {"result": {
+            "input_list": {
+                "number_in_list": 3,
+                "fold_enrichment": 30.517292490118578,
+                "fdr": 0.029973280746485042,
+                "expected": 0.0983049201029676,
+                "pValue": 2.316029420204897E-4,
+                "mapped_id_list": {"mapped_id": [
+                    "MIPEP",
+                    "IMMP1L",
+                    "OMA1"
+                ]},
+                "list_name": "upload_1",
+                "plus_minus": "+"
+            },
+            "number_in_reference": 11,
+            "term": {
+                "level": 0,
+                "id": "GO:0034982",
+                "label": "mitochondrial protein processing"
+            }
+        }},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 3,
+                    "fold_enrichment": 37.29891304347826,
+                    "fdr": 0.020022479929449603,
+                    "expected": 0.0804312982660644,
+                    "pValue": 1.418205275105896E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "OAT",
+                        "DDAH2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 9,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0006527",
+                    "label": "arginine catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 5.035353260869565,
+                    "fdr": 0.01590353833855303,
+                    "expected": 1.7873621836903202,
+                    "pValue": 1.065014801809089E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "OAT",
+                        "DDAH2",
+                        "GPT2",
+                        "AMT",
+                        "GLUL",
+                        "GCAT",
+                        "ACAT1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 200,
+                "term": {
+                    "level": 3,
+                    "id": "GO:1901605",
+                    "label": "alpha-amino acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 20,
+                    "fold_enrichment": 7.852402745995423,
+                    "fdr": 7.208753405797815E-9,
+                    "expected": 2.546991111758706,
+                    "pValue": 3.713459578002738E-12,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "OAT",
+                        "GPT2",
+                        "AMT",
+                        "DARS2",
+                        "GATB",
+                        "ETFB",
+                        "HARS2",
+                        "BPHL",
+                        "GCAT",
+                        "ACAT1",
+                        "SARS2",
+                        "DDAH2",
+                        "DBT",
+                        "IARS2",
+                        "GLUL",
+                        "CARS2",
+                        "EARS2",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 285,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0006520",
+                    "label": "amino acid metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 4,
+                    "fold_enrichment": 17.903478260869566,
+                    "fdr": 0.01727061962373391,
+                    "expected": 0.22342027296129002,
+                    "pValue": 1.1899267866964124E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "OAT",
+                        "DDAH2",
+                        "GLUL"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 25,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0009065",
+                    "label": "glutamine family amino acid catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 11,
+                    "fold_enrichment": 11.189673913043478,
+                    "fdr": 5.934139013943791E-6,
+                    "expected": 0.9830492010296761,
+                    "pValue": 1.0699027198353261E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "OAT",
+                        "DDAH2",
+                        "GPT2",
+                        "DBT",
+                        "AMT",
+                        "ETFB",
+                        "GLUL",
+                        "GCAT",
+                        "ACAT1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 110,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0009063",
+                    "label": "amino acid catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 24,
+                    "fold_enrichment": 2.4020766897409973,
+                    "fdr": 0.01566191257339813,
+                    "expected": 9.991354606828889,
+                    "pValue": 1.0387488699678092E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "ANAPC13",
+                        "BNIP3L",
+                        "ARG2",
+                        "UBE2H",
+                        "OAT",
+                        "SLC6A17",
+                        "GPT2",
+                        "SIAH1",
+                        "AMT",
+                        "OMA1",
+                        "ETFB",
+                        "SIRT1",
+                        "KCTD6",
+                        "GCAT",
+                        "FBXL12",
+                        "ACAT1",
+                        "DDAH2",
+                        "DBT",
+                        "TRIM3",
+                        "SARM1",
+                        "PCYOX1L",
+                        "GLUL",
+                        "ALDH7A1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 1118,
+                "term": {
+                    "level": 3,
+                    "id": "GO:1901565",
+                    "label": "organonitrogen compound catabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 11.189673913043478,
+                    "fdr": 8.307092746898116E-5,
+                    "expected": 0.8043129826606441,
+                    "pValue": 2.407077743788894E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "OAT",
+                        "DDAH2",
+                        "GPT2",
+                        "AMT",
+                        "GLUL",
+                        "GCAT",
+                        "ACAT1",
+                        "BCAT2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 90,
+                "term": {
+                    "level": 2,
+                    "id": "GO:1901606",
+                    "label": "alpha-amino acid catabolic process"
+                }
+            }
+        ]},
+        {"result": [
+            {
+                "input_list": {
+                    "number_in_list": 3,
+                    "fold_enrichment": 41.96127717391304,
+                    "fdr": 0.015835111323117615,
+                    "expected": 0.07149448734761281,
+                    "pValue": 1.0706289046537987E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "SARS2",
+                        "DARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 8,
+                "term": {
+                    "level": 0,
+                    "id": "GO:0070127",
+                    "label": "tRNA aminoacylation for mitochondrial protein translation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 7,
+                    "fold_enrichment": 18.649456521739133,
+                    "fdr": 8.450787223236978E-5,
+                    "expected": 0.37534605857496717,
+                    "pValue": 2.394299020105776E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "SARS2",
+                        "DARS2",
+                        "IARS2",
+                        "HARS2",
+                        "CARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 42,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0006418",
+                    "label": "tRNA aminoacylation for protein translation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 13,
+                    "fold_enrichment": 3.729891304347826,
+                    "fdr": 0.010312274714005904,
+                    "expected": 3.4853562581961244,
+                    "pValue": 6.573826121613551E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "MRPS26",
+                        "SARS2",
+                        "PDF",
+                        "MRPS14",
+                        "DARS2",
+                        "GATB",
+                        "IARS2",
+                        "MRPL48",
+                        "AURKAIP1",
+                        "HARS2",
+                        "CARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 390,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0006412",
+                    "label": "translation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 13,
+                    "fold_enrichment": 3.4717365362664734,
+                    "fdr": 0.018929138770870404,
+                    "expected": 3.74452377483122,
+                    "pValue": 1.31638569687959E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "MRPS26",
+                        "SARS2",
+                        "PDF",
+                        "MRPS14",
+                        "DARS2",
+                        "GATB",
+                        "IARS2",
+                        "MRPL48",
+                        "AURKAIP1",
+                        "HARS2",
+                        "CARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 419,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0043043",
+                    "label": "peptide biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 17,
+                    "fold_enrichment": 3.700864912874302,
+                    "fdr": 0.0011878746818528496,
+                    "expected": 4.593520812084122,
+                    "pValue": 5.354232307128105E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "MIPEP",
+                        "MRPS26",
+                        "MRPS14",
+                        "DARS2",
+                        "GATB",
+                        "MRPL48",
+                        "HARS2",
+                        "IMMP1L",
+                        "NLN",
+                        "DAP",
+                        "SARS2",
+                        "PDF",
+                        "IARS2",
+                        "AURKAIP1",
+                        "CARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 514,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0006518",
+                    "label": "peptide metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 24,
+                    "fold_enrichment": 3.3527112848070346,
+                    "fdr": 1.0169417728216946E-4,
+                    "expected": 7.158385545679732,
+                    "pValue": 3.143155511618889E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "MIPEP",
+                        "ARG2",
+                        "MRPS26",
+                        "OAT",
+                        "MRPS14",
+                        "DARS2",
+                        "GATB",
+                        "MRPL48",
+                        "HARS2",
+                        "ACAT1",
+                        "IMMP1L",
+                        "NLN",
+                        "UGT8",
+                        "DAP",
+                        "SARS2",
+                        "PDF",
+                        "PPCS",
+                        "OGDH",
+                        "IARS2",
+                        "AURKAIP1",
+                        "GLUL",
+                        "CARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 801,
+                "term": {
+                    "level": 5,
+                    "id": "GO:0043603",
+                    "label": "amide metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 17,
+                    "fold_enrichment": 3.496773097826087,
+                    "fdr": 0.002157137754013521,
+                    "expected": 4.86162513963767,
+                    "pValue": 1.0973205574183395E-5,
+                    "mapped_id_list": {"mapped_id": [
+                        "ARG2",
+                        "MRPS26",
+                        "MRPS14",
+                        "DARS2",
+                        "GATB",
+                        "MRPL48",
+                        "HARS2",
+                        "ACAT1",
+                        "UGT8",
+                        "SARS2",
+                        "PDF",
+                        "PPCS",
+                        "IARS2",
+                        "AURKAIP1",
+                        "CARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 544,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0043604",
+                    "label": "amide biosynthetic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 8,
+                    "fold_enrichment": 19.892753623188405,
+                    "fdr": 1.0277997851929662E-5,
+                    "expected": 0.40215649133032205,
+                    "pValue": 2.0516286761739828E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "SARS2",
+                        "DARS2",
+                        "GATB",
+                        "IARS2",
+                        "HARS2",
+                        "CARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 45,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0043039",
+                    "label": "tRNA aminoacylation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 12,
+                    "fold_enrichment": 6.781620553359684,
+                    "fdr": 1.254473258685703E-4,
+                    "expected": 1.7694885618534169,
+                    "pValue": 3.9580933467868283E-7,
+                    "mapped_id_list": {"mapped_id": [
+                        "PUS10",
+                        "SARS2",
+                        "OSGEPL1",
+                        "TRMT12",
+                        "DARS2",
+                        "GATB",
+                        "IARS2",
+                        "TRMT61A",
+                        "HARS2",
+                        "CARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 198,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0006399",
+                    "label": "tRNA metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 15,
+                    "fold_enrichment": 3.1849166735417875,
+                    "fdr": 0.015510742037300008,
+                    "expected": 4.709699354023993,
+                    "pValue": 1.0187351499063753E-4,
+                    "mapped_id_list": {"mapped_id": [
+                        "PUS10",
+                        "INTS14",
+                        "OSGEPL1",
+                        "DARS2",
+                        "GATB",
+                        "HARS2",
+                        "SARS2",
+                        "TRMT12",
+                        "IARS2",
+                        "POLR1G",
+                        "TRMT61A",
+                        "CARS2",
+                        "EARS2",
+                        "INTS6L"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 527,
+                "term": {
+                    "level": 4,
+                    "id": "GO:0034660",
+                    "label": "ncRNA metabolic process"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 8,
+                    "fold_enrichment": 19.460302457466916,
+                    "fdr": 1.1249051901655586E-5,
+                    "expected": 0.41109330224877366,
+                    "pValue": 2.3903329861856687E-8,
+                    "mapped_id_list": {"mapped_id": [
+                        "SARS2",
+                        "DARS2",
+                        "GATB",
+                        "IARS2",
+                        "HARS2",
+                        "CARS2",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 46,
+                "term": {
+                    "level": 3,
+                    "id": "GO:0043038",
+                    "label": "amino acid activation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 9.239180295173515,
+                    "fdr": 3.039377411661755E-4,
+                    "expected": 0.9741123901112244,
+                    "pValue": 1.0764053936986255E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "MRPS26",
+                        "SARS2",
+                        "MRPS14",
+                        "DARS2",
+                        "GATB",
+                        "IARS2",
+                        "MRPL48",
+                        "AURKAIP1",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 109,
+                "term": {
+                    "level": 1,
+                    "id": "GO:0032543",
+                    "label": "mitochondrial translation"
+                }
+            },
+            {
+                "input_list": {
+                    "number_in_list": 9,
+                    "fold_enrichment": 7.092046846295162,
+                    "fdr": 0.0017124800234363708,
+                    "expected": 1.2690271504201274,
+                    "pValue": 8.270186848533665E-6,
+                    "mapped_id_list": {"mapped_id": [
+                        "MRPS26",
+                        "SARS2",
+                        "MRPS14",
+                        "DARS2",
+                        "GATB",
+                        "IARS2",
+                        "MRPL48",
+                        "AURKAIP1",
+                        "EARS2"
+                    ]},
+                    "list_name": "upload_1",
+                    "plus_minus": "+"
+                },
+                "number_in_reference": 142,
+                "term": {
+                    "level": 2,
+                    "id": "GO:0140053",
+                    "label": "mitochondrial gene expression"
+                }
+            }
+        ]},
+        {"result": {
+            "input_list": {
+                "number_in_list": 3,
+                "fold_enrichment": 83.92255434782608,
+                "fdr": 0.0040679020541295975,
+                "expected": 0.035747243673806404,
+                "pValue": 2.3312510162107803E-5,
+                "mapped_id_list": {"mapped_id": [
+                    "ABCB8",
+                    "GHITM",
+                    "CCDC51"
+                ]},
+                "list_name": "upload_1",
+                "plus_minus": "+"
+            },
+            "number_in_reference": 4,
+            "term": {
+                "level": 0,
+                "id": "GO:0140141",
+                "label": "mitochondrial potassium ion transmembrane transport"
+            }
+        }}
+    ]
+}}
