@@ -31,10 +31,11 @@ Sample preparation and data acquisition:
 - SXT (ALBA, Berkeley, SIRIUS): Simon Leclerc, Visa Ruokolainen, Vesa Aho, Jian-Hua Chen, Ana J. Perez-Berna, Sergey Kapishnikov, Eva Pereiro, Tony McEnroe, Kenneth Fahy, Carolyn A. Larabell, Venera Weinhardt
 - SeaHorse: Simon Leclerc, Paula Turkki, Eric Dufour, Vesa Hytönen
 - Confocal microscopy: Simon Leclerc, Kari Kunnas, Salla Mattola
-Data segmentation and analysis:
+Data segmentation and/or analysis:
 - GRO-Seq: Henri Niskanen, Simon Leclerc
 - FIB-SEM and SFB-EM: Alka Gupta, Kari Kunnas, Simon Leclerc
-- ExM, PLA, Confocal microscopy, SeaHorse: Simon Leclerc
+- ExM, PLA, Confocal microscopy
+- SeaHorse: Simon Leclerc
 - SXT: Venera Weinhardt, Simon Leclerc
 - Manuscript writing, project management: Simon Leclerc, Salla Mattola, Vesa Aho, Maija Vihinen-Ranta
 - Figure making: Simon Leclerc, Salla Mattola
