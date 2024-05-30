@@ -1,0 +1,10 @@
+Name,GO id,pValue,fold enrichment,protein list
+regulation of mitochondrial membrane permeability,GO:0046902,0.00027739642441978356,9.324728260869565,"['BNIP3L', 'RHOT2', 'BCL2L11', 'SLC25A4', 'BCL2L1']"
+negative regulation of mitochondrion organization,GO:0010823,0.00017548822531716714,10.360809178743962,"['DAP', 'GHITM', 'OMA1', 'SLC25A4', 'BCL2L1']"
+apoptotic mitochondrial changes,GO:0008637,2.3830546638757975e-05,11.379329403095063,"['BNIP3L', 'RHOT2', 'BCL2L11', 'NDUFS1', 'SLC25A4', 'BCL2L1']"
+proton motive force-driven mitochondrial ATP synthesis,GO:0042776,3.1461484164009017e-06,12.238705842391303,"['MT-ND4L', 'NDUFA8', 'MT-ND4', 'NDUFAB1', 'NDUFS1', 'NDUFV3', 'NDUFV2']"
+mitochondrial respiratory chain complex I assembly,GO:0032981,1.92231443302138e-07,14.438288920056102,"['NDUFA8', 'MT-ND4', 'AIFM1', 'NDUFAF4', 'NDUFAB1', 'NDUFS1', 'MIEF1', 'NDUFAF1']"
+mitochondrial cytochrome c oxidase assembly,GO:0033617,0.00011899267866964124,17.903478260869566,"['TMEM223', 'SMIM4', 'TACO1', 'COA5']"
+mitochondrial fission,GO:0000266,3.1691905998625215e-05,26.328644501278774,"['MTFP1', 'MIEF1', 'COX10', 'SLC25A46']"
+mitochondrial respiratory chain complex III assembly,GO:0034551,0.00028761992321841125,27.974184782608695,"['SMIM4', 'UQCC3', 'UQCC2']"
+cristae formation,GO:0042407,2.0810730020908628e-05,29.839130434782607,"['UQCC3', 'IMMT', 'OMA1', 'SLC25A46']"
