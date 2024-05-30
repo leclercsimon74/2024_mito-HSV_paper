@@ -1,6 +1,9 @@
 # 2024_mito-HSV_paper
 Part of the data and code of the "Progression of herpesvirus infection remodels mitochondrial organization and metabolism"
+
 BioRXiv link: https://www.biorxiv.org/content/10.1101/2023.11.16.567337v1
+
+Final version (Plos-Pathogen): https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1011829
 
 ## Abstract
 Viruses target mitochondria to promote their replication, and infection-induced stress during the progression of infection leads to the regulation of antiviral defenses and mitochondrial metabolism which are opposed by counteracting viral factors. The precise structural and functional changes that underlie how mitochondria react to the infection remain largely unclear. Here we show extensive transcriptional remodeling of protein-encoding host genes involved in the respiratory chain, apoptosis, and structural organization of mitochondria as herpes simplex virus type 1 lytic infection proceeds from early to late stages of infection. High-resolution microscopy and interaction analyses unveiled infection-induced emergence of rough, thin, and elongated mitochondria relocalized at the perinuclear area, a significant increase in the number and clustering of ER-mitochondria contact sites, and thickening and shortening of mitochondrial cristae. Finally, metabolic analyses demonstrated that reactivation of ATP production is accompanied by increased mitochondrial Ca2+ content and proton leakage as the infection proceeds. Overall, the significant structural and functional changes in the mitochondria triggered by the viral invasion are tightly connected to the progression of the virus infection.
@@ -11,7 +14,7 @@ Viruses target mitochondria to promote their replication, and infection-induced 
 ## Techniques
 We used a lot of techniques to showcase the effect of HSV on mitochondria:
 - GRO-Seq: investigate changes in mRNA expression
-- SXT: cryo soft-x-ray tomography, visualize as natively as possible the cell content, label-free, relying on x-ray absorption
+- SXT: cryo soft-X-ray tomography, visualize as natively as possible the cell content, label-free, relying on x-ray absorption
 - SBF-EM: Serial block-face electron microscopy, enable the EM view of a 3D volume, a cell here, and can observe up to the ER-mitochondria contact point
 - ExM: Expansion microscopy, a variation of TReX, enables to gain around 10 times the resolution compared to a classical sample, seeing in great detail the mitochondria
 - PLA: Proximity Ligation Assay, not super-resolution, but gives a signal if the two proteins of interest are within 40 nm of each other, perfect to see the closeness of ER and mitochondria
@@ -33,5 +36,5 @@ Data segmentation and analysis:
 - FIB-SEM and SFB-EM: Alka Gupta, Kari Kunnas, Simon Leclerc
 - ExM, PLA, Confocal microscopy, SeaHorse: Simon Leclerc
 - SXT: Venera Weinhardt, Simon Leclerc
-  Manuscript writing, project management: Simon Leclerc, Salla Mattola, Vesa Aho, Maija Vihinen-Ranta
-  Figure making: Simon Leclerc, Salla Mattola
+- Manuscript writing, project management: Simon Leclerc, Salla Mattola, Vesa Aho, Maija Vihinen-Ranta
+- Figure making: Simon Leclerc, Salla Mattola
