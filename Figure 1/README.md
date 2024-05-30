@@ -4,6 +4,15 @@ The final figure involves merging multiple SVG files and manually reorganizing t
 
 ![Figure 1, Low definition](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Figure%201/Figure1_v2_LD.png)
 
+**Fig 1. HSV-1 infection alters the host transcriptome.**
+
+Global run-on sequencing (GRO-seq) analysis of nascent RNA levels of mitochondrial and mitochondria-associated proteins in infected Vero cells at **(a)** 4 and **(b)** 8 hpi. The genes encoding for mitochondrial proteins (square-shaped nodes, bolded titles) and nonmitochondrial cellular interactor proteins (round-shaped nodes) are shown. The upregulated (orange) or downregulated (green) transcripts in response to infection are visible together with unregulated interacting transcripts (grey). The node size correlates with a logarithmic fold change (logFC) of regulation and the thickness of black lines between nodes is proportional to the interaction in the STRING database (https://string-db.org/). The main functions of the proteins are denoted with yellow circles with their size proportional to the number of interactors. **(c)** GO term classification for mitochondrial processes in the infected cells at 4 and 8 hpi. The color bar indicates upregulation (orange-red) or downregulation (green-blue), and low change of gene transcription (vertical stripes). The non-significant enrichment is also shown (*).
+
+https://doi.org/10.1371/journal.ppat.1011829.g001
+
+> [!IMPORTANT]
+> Python code to generate (part) of the figure
+
 **GRO-Seq.py**:
 
 This program performs various data processing and analysis tasks related to gene expression data. Here is an overview of what the program does:
