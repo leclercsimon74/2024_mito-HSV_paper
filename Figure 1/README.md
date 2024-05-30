@@ -13,7 +13,7 @@ https://doi.org/10.1371/journal.ppat.1011829.g001
 > [!IMPORTANT]
 > Python code to generate (part) of the figure
 
-**GRO-Seq.py**:
+**GRO-Seq_GH.py**:
 
 This program performs various data processing and analysis tasks related to gene expression data. Here is an overview of what the program does:
 
@@ -45,3 +45,18 @@ Require files (can be downloaded):
 
 Gro-Seq dataset:
 - getDiffExpression_VERO_ChlSab1.1_noadj_rpkmAdded_GeneInfoAdded_EXCEL2.xlsx
+
+**make_table.py**
+
+- Data Loading: It loads JSON and Excel data (proteinatlas.json.gz and getDiffExpression_VERO_ChlSab1.1_noadj_rpkmAdded_GeneInfoAdded_EXCEL2.xlsx) containing protein information and gene expression data, respectively.
+- Data Processing:
+   - Filters gene expression data based on certain criteria like fold change and false discovery rate at different time points (4 hours and 8 hours post-infection).
+   - Extracts relevant information about proteins from the loaded JSON file based on gene names and synonyms.
+- Analysis:
+   - Counts the number of proteins associated with a specific subcellular location (e.g., Mitochondria) that are upregulated or downregulated at different time points.
+   - Generates Venn diagrams to compare gene expression between different time points.
+   - Generates bar plots to visualize the count of proteins associated with different biological processes, categorized by their regulation status and time points.
+   - Analyzes protein functions and biological processes using Gene Ontology (GO) annotations and visualizes them using a Sankey diagram.
+   - Creates a heatmap to display the log-fold changes of proteins associated with specific GO terms at different time points.
+
+Overall, this code aims to provide insights into how gene expression changes over time during a specific biological process, with a focus on proteins associated with mitochondria.
