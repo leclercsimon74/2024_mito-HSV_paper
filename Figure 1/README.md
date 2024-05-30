@@ -13,7 +13,7 @@ https://doi.org/10.1371/journal.ppat.1011829.g001
 > [!IMPORTANT]
 > Python code to generate (part) of the figure
 
-**GRO-Seq_GH.py**:
+[GRO-Seq_GH.py](GRO-Seq_GH.py):
 
 This program performs various data processing and analysis tasks related to gene expression data. Here is an overview of what the program does:
 
@@ -46,7 +46,7 @@ Require files (can be downloaded):
 Gro-Seq dataset:
 - getDiffExpression_VERO_ChlSab1.1_noadj_rpkmAdded_GeneInfoAdded_EXCEL2.xlsx
 
-**make_table.py**
+[make_table.py](make_table.py):
 
 - Data Loading: It loads JSON and Excel data (proteinatlas.json.gz and getDiffExpression_VERO_ChlSab1.1_noadj_rpkmAdded_GeneInfoAdded_EXCEL2.xlsx) containing protein information and gene expression data, respectively.
 - Data Processing:
