@@ -27,7 +27,8 @@ contact_size_dist = 30 #in nm
 mito_path = "Segmented_Mitochondria_Labels_MEF_WT_uninfected_220720_R3_8x8x30_85-sub.tif"
 nucl_path = "Segmented_Nucleus_Labels_MEF_WT_uninfected_220720_R3_8x8x30_85-sub.tif"
 endr_path = "Segmented_Reticulum_Labels_MEF_WT_uninfected_220720_R3_8x8x30_85-sub.tif"
-ori_path = 'MEF_WT_uninfected_220720_R3_8x8x30_85-sub.tif'
+ori_path = 'MEF_WT_uninfected_220720_R3_8x8x30_85-sub.tif' #<Too big for Github!
+ori_path = 'MEF_WT_uninfected_220720_R3_8x8x30_85-sub-slice7.tif' #<Just one slice
 
 def extend(img):
     zeros = np.zeros(np.array(img.shape)+2, dtype=bool)
@@ -120,13 +121,15 @@ contour_thickness = 5
 s = 7 #slice
 enr_color = np.array([175, 175, 200]) #RGB
 
-ori_img = tifffile.imread(ori_path)
-zeros = np.zeros(np.array(ori_img.shape)+2, dtype='int8')
-zeros[1:-1,1:-1,1:-1] = ori_img
-ori_img = zeros
-del zeros
 
-ori_img = np.where(ori_img < 0, np.max(ori_img)+np.abs(ori_img), ori_img)
+#ori_img = tifffile.imread(ori_path)
+#zeros = np.zeros(np.array(ori_img.shape)+2, dtype='int8')
+#zeros[1:-1,1:-1,1:-1] = ori_img
+#ori_img = zeros
+#del zeros
+#ori_img = np.where(ori_img < 0, np.max(ori_img)+np.abs(ori_img), ori_img) #wrapping around...
+
+ori_img = tifffile.imread(ori_path)
 
 from mpl_toolkits.axes_grid1.anchored_artists import AnchoredSizeBar
 
@@ -142,7 +145,7 @@ scalebar = AnchoredSizeBar(ax.transData,
                            size_vertical=5,
                            fontproperties={'size':0})
 
-ax.imshow(ori_img[s], cmap='gray_r')
+ax.imshow(ori_img, cmap='gray_r')
 
 
 ax.add_artist(scalebar)
