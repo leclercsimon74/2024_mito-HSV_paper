@@ -339,8 +339,8 @@ outer_m_c = np.array((215,215,215))
 
 
 ax = fig.add_subplot(3,2,1)
-path_ni_raw = 'cristae NI\m1_NI\m1_NI_raw.tif'
-path_ni_seg = 'cristae NI\m1_NI\m1_NI.tif'
+path_ni_raw = 'cristae NI\m1_NI_raw.tif'
+path_ni_seg = 'cristae NI\m1_NI.tif'
 z = 12
 img = tifffile.imread(path_ni_raw)
 seg = tifffile.imread(path_ni_seg)
@@ -351,8 +351,8 @@ ax.add_artist(add_scalebar(5, ax))
 plt.axis('off')
 
 ax = fig.add_subplot(3,2,3)
-path_inf_raw = 'cristae 8hpi\m1_8hpi\m1_8hpi_raw.tif'
-path_inf_seg = 'cristae 8hpi\m1_8hpi\m1_8hpi.tif'
+path_inf_raw = 'cristae 8hpi\m1_8hpi_raw.tif'
+path_inf_seg = 'cristae 8hpi\m1_8hpi.tif'
 z = 12
 img = tifffile.imread(path_inf_raw)
 seg = tifffile.imread(path_inf_seg)
