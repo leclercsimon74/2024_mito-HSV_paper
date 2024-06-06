@@ -1,0 +1,48 @@
+PLA by Salla's
+
+Channel:		COLOR
+1. DAPI			BLUE
+2. ICP4			CYAN
+3. PLA (VAPB-RMDN3)	Yellow
+4. DIC			Gray
+5. Mito			Magenta
+
+resolution: (0.1797678,0.0632473,0.0632473) in um ZXY
+
+Small Macro
+Crop if needed with a clear outside and save with the correct color as tif
+
+Candidate for visualization/figure
+NI: 49
+4 hpi: 55
+8 hpi: 41
+12 hpi : 67, 55, 53, 50, 48, 46
+
+Objective:
+Count PLA spots
+
+Methods:
+Nucleus segmentation and removal from other channels
+Mitochondria segmentation
+PLA signal segmentation with optionnal watershed. Objective is to detect the signal that have a spherical shape of a given volume.
+Label the PLA signal and filter by their size (should be similar).
+Count them
+Detect their centroid and measure the distance to the closest mitochondria (optional)
+
+Results:
+Shorter distance to mitochondria and more PLA signal in infected cells
+
+
+Images for figure
+Set the PLA signal and ICP4 to be the same range for all the condition
+ - PLA: 72-255
+- ICP4: 77-255
+Set the mitochondria and nucleus to be optimal for each condition (auto)
+Select 10 slices of each images
+Mean filter (1.0) on the mitochondria channel for NI, 4hpi, 8hpi, 12hpi
+Mean filter (1.0) on the PLA channel for NI, 4hpi, 8hpi, 12hpi
+Max projection
+save
+Scale bar 10 um
+Select on area of 80x80 pixels (5um)
+Make the PLA+mito, PLA and mito, save
