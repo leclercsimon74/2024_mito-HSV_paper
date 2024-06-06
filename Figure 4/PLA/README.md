@@ -45,5 +45,5 @@ This script performs analysis on Proximity Ligation Assay (PLA) images to identi
 - **Visualizations**: Intermediate visualizations of segmentation and distance measurements for each image.
 - **CSV and Pickle Files**: `PLA_foci_distance.csv` and `PLA_foci_distance.pckl` containing detailed measurements and analysis results for all conditions.
 
-Example of visualization (control):
+Example of visualization ([Results_IMG](https://github.com/leclercsimon74/2024_mito-HSV_paper/tree/main/Figure%204/PLA/Results_IMG)):
 ![8hpi](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Figure%204/PLA/Results_IMG/8%20hpi_08092023%20HSV1%20ICP4-EYFP%20PLA%20orange%20deep%20red%20mitotracker%20DAPI%208%20hpi.lif%20-%20TileScan%204_Position%2043-1.jpg)
