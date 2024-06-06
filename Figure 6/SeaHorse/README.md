@@ -37,5 +37,6 @@ This Python script is used for generating several plots that visualize the resul
     - The data is processed and specific wells are excluded as needed.
     - OCR data is plotted over time with error bars, and additional swarm plots are included for different categories.
 
-Image created is similar to this one, further modified by hand for better readibility
-[Main graphes2.png](Main graphes2.png)
+Image created is similar to this one, further modified by hand for better readability
+
+![Main graphes2](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Figure%206/SeaHorse/Main%20graphes2.png)
