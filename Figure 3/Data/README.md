@@ -1,3 +1,5 @@
+## [Data_analysis.py](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Figure%203/Data/Data_analysis.py)
+
 ### General Description:
 The script analyzes and visualizes the distances between endoplasmic reticulum (ER) and mitochondria in different conditions (non-infected, 8 hours post-infection, and 12 hours post-infection). It also examines the number of contact sites per mitochondria and the area of these contact sites. Statistical analysis is performed to compare these metrics across different conditions.
 
@@ -58,5 +60,5 @@ The script analyzes and visualizes the distances between endoplasmic reticulum (
 - **CSV Files**: Saves the processed data used for plotting into CSV files.
 
 
-Graphs being generated with the code [Data_analysis.py](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Figure%203/Data/Data_analysis.py):
+Graphs being generated with the code:
 ![graphs](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Figure%203/Data/ER-mitochondria%20distance.png)
