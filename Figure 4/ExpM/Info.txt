@@ -1,0 +1,43 @@
+Expansion microscopy
+
+Channel 1: DAPI
+Channel 2: Mitotracker
+Channel 3: VAPB
+Channel 4: ICP4
+
+resolution XY 0.160
+resolution Z 0.36
+
+Expansion Factor 12
+Correct pixel size XY: 0.01335677
+Correct pixel size Z: 0.0296831417
+
+Objective
+
+Extract the distance between VAPB (foci) and Mitochondria
+Histogram of distance map
+Quantify the quantity of foci at less the theshold (resolution (60 nm))
+
+Image treatment
+NI: 230813 VAPB and RMDN3 samples 1.lif - 10 ctrl 1 stack.tif
+8 hpi: 
+
+Setup. Thr		COLOR
+DAPI: auto		BLUE
+Mitotracker: 0-2	Magenta
+VAPB: 0-4		Yellow
+ICP4: 0-10		CYAN
+
+Select 90-110 on the z (NI)
+Select 
+Gaussian Blur (1)
+Z-Projection MAX INTENSITY
+Change the pixel size to the correct one
+Save as Tiff
+Crop with a 1024x1024 selection
+Convert to RGB
+Add scale bar (1um)
+Save
+Selection a ROI scare (100x100)
+Make the split
+Save mito, VAPB alone, then in combination and the full merge (4 images in total)
