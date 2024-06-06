@@ -43,9 +43,9 @@ color = u.get_color(3, 'original')
 sns.set_palette(sns.color_palette(color, len(color)))
 
 
-path_ni = "NI 4000-2400 by 1024x1024 on 25-55"+os.sep+"NI_dist_map.pckl.npy"
-path_8hpi = "8hpi 1000-2500 by 1024x1024 on 30-60"+os.sep+"8hpi_dist_map.pckl.npy"
-path_12hpi = "12hpi 2800-3000 by 1024x1024 on 90-120"+os.sep+"12hpi_dist_map.pckl.npy"
+path_ni = "NI"+os.sep+"NI_dist_map.pckl.npy"
+path_8hpi = "8hpi"+os.sep+"8hpi_dist_map.pckl.npy"
+path_12hpi = "12hpi"+os.sep+"12hpi_dist_map.pckl.npy"
 
 data_ni = np.load(path_ni)
 data_8hpi = np.load(path_8hpi)
@@ -117,13 +117,13 @@ ax.set_ylabel('Distance (nm)')
 
 ax = fig.add_subplot(132)
 
-n_ni = np.load("NI 4000-2400 by 1024x1024 on 25-55"+os.sep+'ni_contact_site_n.npy')
-n_8hpi = np.load("8hpi 1000-2500 by 1024x1024 on 30-60"+os.sep+"8hpi_contact_site_n.npy")
-n_12hpi = np.load("12hpi 2800-3000 by 1024x1024 on 90-120"+os.sep+"12hpi_contact_site_n.npy")
+n_ni = np.load("NI"+os.sep+'ni_contact_site_n.npy')
+n_8hpi = np.load("8hpi"+os.sep+"8hpi_contact_site_n.npy")
+n_12hpi = np.load("12hpi"+os.sep+"12hpi_contact_site_n.npy")
 
-m_ni = np.load("NI 4000-2400 by 1024x1024 on 25-55"+os.sep+'SA_mito.npy')
-m_8hpi = np.load("8hpi 1000-2500 by 1024x1024 on 30-60"+os.sep+"8hpi_SA_mito.npy")
-m_12hpi = np.load("12hpi 2800-3000 by 1024x1024 on 90-120"+os.sep+"12hpi_SA_mito.npy")
+m_ni = np.load("NI"+os.sep+'SA_mito.npy')
+m_8hpi = np.load("8hpi"+os.sep+"8hpi_SA_mito.npy")
+m_12hpi = np.load("12hpi"+os.sep+"12hpi_SA_mito.npy")
 
 data = {'Noninfected':n_ni/(m_ni/1000000),
         '8 hpi':n_8hpi/(m_8hpi/1000000),
@@ -139,9 +139,9 @@ ax.set_ylabel('Nb contact site/mitochondria ${\mu m^2}$')
 
 ax = fig.add_subplot(133)
 
-n_ni = np.load("NI 4000-2400 by 1024x1024 on 25-55"+os.sep+'ni_area_contact_site.npy')
-n_8hpi = np.load("8hpi 1000-2500 by 1024x1024 on 30-60"+os.sep+"8hpi_area_contact_site.npy")
-n_12hpi = np.load("12hpi 2800-3000 by 1024x1024 on 90-120"+os.sep+"12hpi_area_contact_site.npy")
+n_ni = np.load("NI"+os.sep+'ni_area_contact_site.npy')
+n_8hpi = np.load("8hpi"+os.sep+"8hpi_area_contact_site.npy")
+n_12hpi = np.load("12hpi"+os.sep+"12hpi_area_contact_site.npy")
 
 data = {'Noninfected':n_ni,
         '8 hpi':n_8hpi,
