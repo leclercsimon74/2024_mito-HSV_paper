@@ -47,6 +47,10 @@ It iteratively refines cell segmentation using watershed if loose cells are dete
 The processing for NI (Non-Infected) data follows a similar approach but uses a different image path.
 
 
+# BONUS, exploratory graph
+
+![exploratory graph](exploratory_graph.png)
+
 
 # [Figure.py](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Supplementary%20Figure%20S5%20(mPTP)/Figure.py)
 
