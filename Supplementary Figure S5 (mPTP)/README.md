@@ -1,11 +1,11 @@
-![Figure S5]()
+![Figure S5](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Supplementary%20Figure%20S5%20(mPTP)/Figure_adjusted.png)
 
 **S5 Fig. Mitochondrial permeability transition pores prefer closed state in infected cells.**
 The state of mPTP was assessed by cellular loading of fluorescent Calcein-AM and Co2+ quencher. **(a)** Representative cells showing Calcein (cyan) distribution in the cytosol of noninfected and infected MEF cells at 4, 8, and 12 hpi. The plasma membrane localization is shown (cell, grey line). **(b)** The fluorescent intensity of cytoplasmic Calcein and nuclear viral replication compartment marker, ICP4, in noninfected and infected cells at 4, 8, and 12 hpi (n = 150, 134, 65, and 152, respectively). Statistical significance was determined using the Student´s t-test. The significance values are denoted as **** (p<0.0001), *** (p<0.001), or ns (not significant).
 
 https://doi.org/10.1371/journal.ppat.1011829.s005
 
-# [Data_extraction.py]()
+# [Data_extraction.py](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Supplementary%20Figure%20S5%20(mPTP)/Data_extraction.py)
 The Python code performs image analysis to extract data on mPTP (Mitochondrial Permeability Transition Pore) experiment.
 
 ## Image Loading and Preprocessing
@@ -48,7 +48,7 @@ The processing for NI (Non-Infected) data follows a similar approach but uses a 
 
 
 
-# [Figure.py]()
+# [Figure.py](https://github.com/leclercsimon74/2024_mito-HSV_paper/blob/main/Supplementary%20Figure%20S5%20(mPTP)/Figure.py)
 
 This code analyzes microscopy images from an mPTP (Mitochondrial Permeability Transition Pore) experiment to quantify infection levels and mPTP activity in cells.
 
