@@ -23,7 +23,7 @@ Require the [protein atlas](https://www.proteinatlas.org/download/proteinatlas.j
 ### Load Protein Data:
 The code reads protein data from a JSON file named `proteinatlas.json.gz` using gzip.open and json.loads.
 ### Load Gene Expression Data:
-It reads gene expression data from an Excel file named `"GRO-seq HSV1"+os.sep+"getDiffExpression_JKL_Hela112018_HSV1_0_12h_rpkm_added_condensed_EXCEL_sorting.xlsx"` using pandas.read_excel.
+It reads gene expression data from an Excel file named `getDiffExpression_JKL_Hela112018_HSV1_0_12h_rpkm_added_condensed_EXCEL_sorting.xlsx` using pandas.read_excel.
 It adds a "Gene name" column by splitting the "Annotation/Divergence" column.
 ## Gene Selection and Filtering:
 It retrieves a list of gene names from the protein data using a list comprehension.
