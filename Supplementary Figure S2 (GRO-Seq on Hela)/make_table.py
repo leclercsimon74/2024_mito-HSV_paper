@@ -78,7 +78,7 @@ with gzip.open('proteinatlas.json.gz', 'r') as fin:
     data = json.loads(fin.read().decode('utf-8'))
 
 # get the expression data
-groseq_data = pd.read_excel('GRO-seq HSV1'+os.sep+'getDiffExpression_JKL_Hela112018_HSV1_0_12h_rpkm_added_condensed_EXCEL_sorting.xlsx')
+groseq_data = pd.read_excel('getDiffExpression_JKL_Hela112018_HSV1_0_12h_rpkm_added_condensed_EXCEL_sorting.xlsx')
 
 #no Gene name column. Instead, called Annotation/Divergence
 groseq_data['Gene name'] = groseq_data['Annotation/Divergence'].str.split('|', expand=True, n=1)[0]
@@ -366,7 +366,7 @@ import json
 import os
 
 #extract value from GO based and classify based on the protein name
-with open('GO'+os.sep+'analysis.json') as file:
+with open('analysis.json') as file:
     js = json.load(file)
     js = js['overrepresentation']
 
